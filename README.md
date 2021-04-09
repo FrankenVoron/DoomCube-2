@@ -3,7 +3,7 @@
 
 A mod for V2.4 designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
 
-[Make sure to join our discord!](https://discord.gg/URGtjWKT)
+[Make sure to join our discord!](https://discord.gg/EAANfEk25f)
 
 
 #### Key features:
