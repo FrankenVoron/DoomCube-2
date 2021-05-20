@@ -1,6 +1,6 @@
 # Doom-Cube
 
-![DOOMCUBE](images/DCLogo.png)
+![DOOMCUBE](Images/DCLogo.png)
 
 
 A mod for V2.4 designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
