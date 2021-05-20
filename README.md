@@ -37,7 +37,8 @@ A mod for V2.4 designed by the Voron community, for the Voron community! Please 
 ## BOM 
 All extrusions are listed using Misumi part numbers.
 
-### NOTE: Both square and rounded 4040 are listed, you only need 1 style, but if you are going with a scratch built and using the rounded you will also need stock voron 2020 verticals to go with it. The Rounded 4040 does not need to have holes drilled in them but you will need to drill holes in the stock 2020 to mount the 4040 to it with blind holes see [here](Images/404020-1.jpg) and [here](Images/404020-2.jpg) for an example
+### NOTE: Both square and rounded 4040 are listed, you only need 1 style, but if you are going with a scratch built and using the rounded you will also need stock voron 2020 verticals to go with it. The Rounded 4040 does not need to have holes drilled in them but you will need to drill holes in the stock 2020 to mount the 4040 to it with blind holes see here for an example
+<img src="Images/404020-1.jpg" alt="drawing" width="200"/>
 
 ## Extrusions Based on Build Size
 
