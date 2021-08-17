@@ -143,10 +143,11 @@ HHPBSN5-SET|2| Black
 While we all have many irons in the fire, Doomcube v2 is still being worked on.  Keep an eye out for changes coming to the panel printed parts, as well as some coming mods from the community.  In the interest of encouraging more Doom builds, as well as more mods, a complete DOOM CAD file is now available with all the Doom and Voron components together.  Find it in the CAD folder with all the individual component CAD files.  Now that this is done, work can begin on making the whole project polished and cohesive.  This means finding all the missed chamfers and fillets, making the holes all the correct size, etc.  These changes will be posted to the CAD and STL folders as they are made.  
 
 ### CAD Notes
-If you examine the complete CAD file you will see it is not limited to the basic DOOM and Voron components.  Included are two optional gantry variants, with a handful of popular community produced V2 mods installed.  The file is structured to be very easy to see what you want, and hide what you don't.  I have been unable to export a step file containing the complete cad small enough to load onto github.  I am working on a solution to that.  The f3z will have to do in the mean time.  
+If you examine the complete CAD file you will see it is not limited to the basic DOOM and Voron components.  Included are two optional gantry variants, with a handful of popular community produced V2 mods installed.  The file is structured to be very easy to see what you want, and hide what you don't.  The step file has everything shown by default, so you'll need to hide the frame, skirts, and gantries you don't wish to see.  It should only take a few clicks.
 
-DoomCube is an excellent mod on it's own.  But Doomcubing is a great time to install several mods, while you have things partially disassembled.  The optional modded sample gantries in the complete cad file contain the following excellent mods:
-(big thanks to all original authors for permission!  Always follow the links to their respective repos for the latest stl's and info on how to best make use of their mod)
+DoomCubing is a great way to improve your v2.  It's also a perfect time to install several mods, while you have things partially disassembled.  To give you some ideas about possible mod combos, the optional modded gantries in the complete cad file contain the following excellent mods:
+
+A big thanks to all original authors for permission!  Always follow the links to their respective repos for the latest stl's, and info on how to best make use of their mod
 
 #### Afterburner MGN12 Gantry
 -Ark's MGN12 Mod	https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12
@@ -165,7 +166,7 @@ DoomCube is an excellent mod on it's own.  But Doomcubing is a great time to ins
 #### Omnipresent Mods
 The following mods are present in all Doomcube variants in the complete CAD file.  These mods rock!
 -L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop Mod	https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop
--josar's Klicky Probe Mod   https://github.com/jlas1/Klicky-Probe  
-(OK Klicky and sexbolt aren't in there yet but I didn't want to keep people waiting.  I'm working on getting them installed next. -KM)
+-josar's Klicky Probe Mod   https://github.com/jlas1/Klicky-Probe  (Klicky is not on the Mantis toolhead, since it has a native magprobe that works identically to Klicky)
+
 
 ##### A set of stl checklists to match these mod sets is in the works.  That can be one of the most confusing parts of building up a modded printer from scratch, or doing many mods at once with redundant components.  Hopefully a few checklists will simplify things a little bit.  A huge debt is owed to all the mod makers and their willingness to share their work!  Keep up the good work y'all!
