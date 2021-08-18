@@ -43,8 +43,9 @@ All extrusions are listed using Misumi part numbers.
 
 Part numbers are listed for both square 4040, and rounded 404020 vertical extrusions.  Choose only one type.  The first set of part numbers is for plain cut extrusions.  The second part number is for square extrusions that are both cut and drilled by misumi.  
 
-####Note:
+#### Note:
 If you choose to use rounded corners, you will need to reuse your frame's existing 2020 vertical extrusions, or purchase a set of them for a scratch build.  The rounded verticals do not require machining, but the 2020 verticals that nest into them will need to have holes drilled to enable securing the rounded piece with blind joints, as shown here.
+
 <img src="Images/404020-1.jpg" alt="drawing" width="200"/>
 
 ## Extrusions Based on Standard V2 Build Sizes
@@ -147,26 +148,32 @@ If you examine the complete CAD file you will see it is not limited to the basic
 
 DoomCubing is a great way to improve your v2.  It's also a perfect time to install several mods, while you have things partially disassembled.  To give you some ideas about possible mod combos, the optional modded gantries in the complete cad file contain the following excellent mods:
 
-A big thanks to all original authors for permission!  Always follow the links to their respective repos for the latest stl's, and info on how to best make use of their mod
 
-#### Afterburner MGN12 Gantry
--Ark's MGN12 Mod	https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12
--Hartk's GE5C Spherical Z Joint Mod   https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
--Hartk's Pin Mod (X/Y Joints, ,A/B Drive Frames, A/B idlers, Z idlers)	https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
--whoppingpochard's Gantry Rail Backers Mod	https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers
+### Afterburner MGN12 Gantry
+Mod|Repository
+----|----|
+Ark's MGN12|https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12
+Hartk's GE5C Spherical Z Joint|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
+Hartk's Pinmod (X/Y Joints, ,A/B Drive Frames, A/B idlers, Z idlers)|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
+whoppingpochard's Gantry Rail Backers|https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers
 
 
-#### Mantis MGN12 Gantry
--Long's Mantis Toolhead Mod	https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Long/Mantis_Dual_5015
--Hartk's GE5C Spherical Z Joint Mod	https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
--Hartk's Pin Mod (X/Y Joints,A/B Drive Frames, Z idlers)	https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
--whoppingpochard's Gantry Rail Backers Mod	https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers
--Phalanx's Other Idlers Mod	https://github.com/selliott79/Other-V2-Idlers
+### Mantis MGN12 Gantry
+Mod|Repository
+----|----|
+Long's Mantis Toolhead|https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Long/Mantis_Dual_5015
+Hartk's GE5C Spherical Z Joint|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
+Hartk's Pinmod (X/Y Joints,A/B Drive Frames, Z idlers)|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
+whoppingpochard's Gantry Rail Backers|https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers
+Phalanx's Other Idlers|https://github.com/selliott79/Other-V2-Idlers
 
-#### Omnipresent Mods
-The following mods are present in all Doomcube variants in the complete CAD file.  These mods rock!
--L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop Mod	https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop
--josar's Klicky Probe Mod   https://github.com/jlas1/Klicky-Probe  (Klicky is not on the Mantis toolhead, since it has a native magprobe that works identically to Klicky)
+### Other Mods
+The following mods are present in all or most Doomcube variants in the complete CAD file.  Klicky is not on the Mantis toolhead, since it has a native magprobe that works identically to Klicky.
+Mod|Repository
+----|----|
+L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop
+josar's Klicky Probe|https://github.com/jlas1/Klicky-Probe 
 
+#### A big thanks to all original authors for permission to include their mods in the Doomcube CAD!  Always follow the links to their respective repos for the latest stl's, and info on how to best make use of their mods.
 
 ##### A set of stl checklists to match these mod sets is in the works.  That can be one of the most confusing parts of building up a modded printer from scratch, or doing many mods at once with redundant components.  Hopefully a few checklists will simplify things a little bit.  A huge debt is owed to all the mod makers and their willingness to share their work!  Keep up the good work y'all!
