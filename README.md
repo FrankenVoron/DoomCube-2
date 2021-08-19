@@ -1,9 +1,6 @@
-# Doom-Cube
-
 ![DOOMCUBE](Images/DCLogo.png)
-
-
-A mod for V2.4 designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
+# Doom-Cube
+A mod for Voron 2.4; designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
 
 [Make sure to join our discord!](https://discord.gg/EAANfEk25f)
 
@@ -19,6 +16,7 @@ A mod for V2.4 designed by the Voron community, for the Voron community! Please 
 - Bottom mounted high voltage components
 
 #### Optional
+
 - Replace X/Y cable chains with umbelical (Z chain retained for A/B motors and Y endstop)
 
 
@@ -39,6 +37,7 @@ For any Voron stock parts, or the Z idlers, please use standard Voron settings.
 For skirts, etc, you may use other settings to reduce filament usage. Currently I am using: 0.3mm layer height, 2 perimeters, 2 bottom, 3 top, 20% infill. 
 
 ## BOM 
+
 All extrusions are listed using Misumi part numbers.
 
 Part numbers are listed for both square 4040, and rounded 404020 vertical extrusions.  Choose only one type.  The first set of part numbers is for plain cut extrusions.  The second part number is for square extrusions that are cut and drilled by misumi.  
@@ -141,8 +140,7 @@ HHPBSN5-SET|2| Black
 
 
 # Ongoing and Future Development
-While we all have many irons in the fire, Doomcube v2 is still being worked on.  Keep an eye out for changes coming to the panel printed parts, as well as some coming mods from the community.  In the interest of encouraging more Doom builds, as well as more mods, a complete DOOM CAD file is now available with all the Doom and Voron components together.  Find it in the CAD folder with all the individual component CAD files.  Now that this is done, work can begin on making the whole project polished and cohesive.  This means finding all the missed chamfers and fillets, making the holes all the correct size, etc.  These changes will be posted to the CAD and STL folders as they are made.  
-
+While we all have many irons in the fire, Doomcube v2 is still being worked on.  Keep an eye out for changes coming to the panel printed parts, as well as some coming mods from the community.  In the interest of encouraging more Doom builds, as well as more mods, a complete DOOM CAD file is now available with all the Doom and Voron components together.  Find it in the CAD folder with all the individual component CAD files.  The individual components have been gone through and all hole sizes have been made consistent.  Missing chamfers were added, and some geometry cleaned up.  The frame and panel assemblies will stay as they are until new files are ready.
 ### CAD Notes
 If you examine the complete CAD file you will see it is not limited to the basic DOOM and Voron components.  Included are two optional gantry variants, with a handful of popular community produced V2 mods installed.  The file is structured to be very easy to see what you want, and hide what you don't.  The step file has everything shown by default, so you'll need to hide the frame, skirts, and gantries you don't wish to see.  It should only take a few clicks.
 
