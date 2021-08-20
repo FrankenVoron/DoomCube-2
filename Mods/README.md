@@ -18,6 +18,7 @@ like so:
 
 | Creator | Mod title | Description |
 | --- | --- | --- |
+| crag-h4k | [direct drive z](./crag-h4k/direct-drive-z) |Replaces z motor assembly with a minimized direct drive z motor unit. |
 | crag-h4k | [galileo adxl345 chain replacement](./crag-h4k/galileo-adxl345-chain-replacement) |Replaces the Galileo extruders's chain mount with a dedicated mount for a adxl345. |
 | crag-h4k | [lil a drive cable cover](./crag-h4k/lil-a-drive-cable-cover) | Replaces beefy a-drive cable cover with a cute little cover - use with top mounted cable gland. |
 | crag-h4k | [mgn12 galileo compatible cable gland mount](./crag-h4k/mgn12-galileo-cable-gland) | Simple cable gland mount for mgn12 x-axis mod and Galileo extruder. |
