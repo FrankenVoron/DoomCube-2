@@ -74,7 +74,7 @@ HFSB5-2020-428|2
 Misumi Part #  |Qty
 |:----:|:----:|
 HFSB5-2020-530-AH10-BH520|2
-HFSB5-2020-428|2
+HFSB5-2020-428-TPW|2
 
 ## DOOM-300
 ### Frame Extrusions
@@ -100,7 +100,7 @@ HFSB5-2020-378|2
 Misumi Part #  |Qty|
 |:----:|:----:|
 HFSB5-2020-480-AH10-BH470|2
-HFSB5-2020-378|2
+HFSB5-2020-378-TPW|2
 
 ## DOOM-250
 ### Frame Extrusions
@@ -128,7 +128,7 @@ HFSB5-2020-328|2
 Misumi Part #  |Qty| 
 |:----:|:----:|
 HFSB5-2020-430-AH10-BH420|2
-HFSB5-2020-328|2
+HFSB5-2020-328-TPW|2
 
 ## Door Hinges
 Silver and Black are listed 
