@@ -165,6 +165,7 @@ Phalanx's Other Idlers|https://github.com/selliott79/Other-V2-Idlers
 
 ### Other Mods
 The following mods are present in all or most Doomcube variants in the complete CAD file.  Klicky is not on the Mantis toolhead, since it has a native magprobe that works identically to Klicky.
+
 Mod|Repository
 |:---:|:---:|
 L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop
