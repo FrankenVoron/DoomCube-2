@@ -10,7 +10,12 @@ As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it u
 
 Click [HERE](../mvieleers/CAD/) for STEP files
 
+![Full Assembly](Images/full_assembly.png)
+
 ## Frame
+
+![Frame(Images/frame.png)
+
 Section|Part| Part #|QTY|Remarks
 |:---:|:----:|:----:|:---:|:---:|
 Bottom Frame
@@ -34,6 +39,8 @@ Bed Frame
 - The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
 
 ## Panels
+
+![Panels(Images/panels.png)
 
 ### Specifics
 - The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
