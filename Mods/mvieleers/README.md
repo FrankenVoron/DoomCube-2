@@ -14,7 +14,7 @@ Click [HERE](../mvieleers/CAD/) for STEP files
 
 ## Frame
 
-![Frame(Images/frame.png)
+![Frame](Images/frame.png)
 
 Section|Part| Part #|QTY|Remarks
 |:---:|:----:|:----:|:---:|:---:|
@@ -40,7 +40,7 @@ Bed Frame
 
 ## Panels
 
-![Panels(Images/panels.png)
+![Panels](Images/panels.png)
 
 ### Specifics
 - The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
