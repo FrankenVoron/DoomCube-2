@@ -42,10 +42,7 @@ Bed Frame
 
 ![Panels](Images/panels.png)
 
-### Specifics
-- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
-- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
-- Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
+Drawings are [here](../mvieleers/Drawings), DXFs are [here](../mvieleers/DXF)
 
 Panel|Drawing|DXF|QTY
 |:---:|:---:|:---:|:---:|
@@ -56,6 +53,11 @@ Top|panel_top.pdf|panel_top.dxf|2
 Bottom|panel_bottom.pdf|panel_bottom.dxf|2
 Top Deck|panel_top_deck.pdf|panel_top_deck.dxf|1
 Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
+
+### Specifics
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
+- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
+- Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
 
 #### Skirts:
