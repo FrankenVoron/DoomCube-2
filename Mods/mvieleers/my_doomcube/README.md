@@ -54,6 +54,7 @@ Bottom|panel_bottom.pdf|panel_bottom.dxf|2
 Top Deck|panel_top_deck.pdf|panel_top_deck.dxf|1
 Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 
+### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Handle|[Aluminum Alloy Door Handle](https://nl.aliexpress.com/item/1407596513.html?spm=a2g0s.9042311.0.0.66fb4c4deTZEmA)|1|CAD shows printed door handle, I use this type of aluminum handle in size 120mm (ordered without screws and nuts)
@@ -75,6 +76,11 @@ Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCod
 - Panelmounts are 2 pieces per side, instead of 3. This might not be printable on smaller bed sizes.
 - Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
 - Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
+
+### Hardware
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
 
 ### Included Mods
 Name|Creator|Description
