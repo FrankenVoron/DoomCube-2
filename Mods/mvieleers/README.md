@@ -54,13 +54,18 @@ Bottom|panel_bottom.pdf|panel_bottom.dxf|2
 Top Deck|panel_top_deck.pdf|panel_top_deck.dxf|1
 Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+Handle|[Aluminum Alloy Door Handle](https://nl.aliexpress.com/item/1407596513.html?spm=a2g0s.9042311.0.0.66fb4c4deTZEmA)|1|CAD shows printed door handle, I use this type of aluminum handle in size 120mm (ordered without screws and nuts)
+Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCode=HHPBSN5-SET&PNSearch=HHPBSN5-SET&KWSearch=HHPBSN5-SET&searchFlow=results2type)|2
+
 ### Specifics
 - The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
 - Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
 - Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
 
-#### Skirts:
+## Skirts
 
 - Basis are the hexagon skirts from the DoomCube. 
 - Due to side and back panel mounting system, flanges of the door are used all around as well as the panelmounts.
