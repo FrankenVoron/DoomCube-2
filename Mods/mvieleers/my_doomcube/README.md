@@ -8,7 +8,7 @@ Untouched mods will link to their official github, altered DoomCube specific mod
 A full CAD for this build will be available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
 As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete system again.
 
-Click [HERE](../mvieleers/CAD/) for STEP files
+Click [HERE](CAD) for STEP files
 
 ![Full Assembly](Images/full_assembly.png)
 
@@ -42,7 +42,7 @@ Bed Frame
 
 ![Panels](Images/panels.png)
 
-Drawings are [here](../mvieleers/Drawings), DXFs are [here](../mvieleers/DXF)
+Drawings are [here](Drawings), DXFs are [here](DXF)
 
 Panel|Drawing|DXF|QTY
 |:---:|:---:|:---:|:---:|
@@ -70,12 +70,16 @@ Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCod
 ![Skirts](Images/skirts.png)
 
 ### Specifics
-- Basis are the hexagon skirts from the DoomCube. 
+- Basis is the hexagon skirts from the original DoomCube. 
 - Due to side and back panel mounting system, flanges of the door are used all around as well as the panelmounts.
 - Panelmounts are 2 pieces per side, instead of 3. This might not be printable on smaller bed sizes.
-- Top and Bottom have different top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
-- Top Corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was also modded to hold the LCD.
-- At the bottom a center skirt was modded to accomodate a Schaffner FN-286 inlet.
+- Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
+- Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
+
+### Included Mods
+Name|Creator|Description
+|:---:|:---:|:---:|
+[FN-286 Plug Panel](../fn-286_plug_panel/)|mvieleers|Altered Plug Panel to hold the Schafnner FN-286 
 
 ## Heated Bed
 
