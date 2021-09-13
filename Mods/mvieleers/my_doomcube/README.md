@@ -90,7 +90,7 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 
 ### Included Mods
 Name|Creator|Description|Remarks
-|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 [FN-286 Plug Panel](../fn-286_plug_panel/)|mvieleers|Altered Plug Panel to hold the Schafnner FN-286 
 [Corner Panel Mounts](../corner_panel_mounts/)|mvieleers|Modded upper and lower corner caps and square feet to attach the top and bottom deck panels to the feet with magnets.|For my personal build I use different (higher) feet on the top and therefor the upper corner caps are also different. These versions can be found under this Mod itself.
 
