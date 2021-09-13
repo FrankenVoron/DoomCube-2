@@ -29,7 +29,7 @@ Click [HERE](CAD) for STEP files
 Section|Part| Part #|QTY|Remarks
 |:---:|:----:|:----:|:---:|:---:|
 Bottom Frame
-||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|8
+||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|8|Can be reused if you're converting from a standard V2 300
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|4|Used to keep the two extrusions from rotating
 ||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
 Vertical Frame
@@ -39,9 +39,9 @@ Top Frame
 ||Top Horizontals|[HFSB5-2040-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302684350/?HissuCode=HFSB5-2040-420-TPW&PNSearch=HFSB5-2040-420-TPW&KWSearch=HFSB5-2040-420-TPW&searchFlow=results2type)|4
 ||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
 Bed Frame
-|||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|
+|||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|Can be reused if you're converting from a standard V2 300
 |||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
-||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar
+||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar. 4 can be reused if you're converting from a standard V2
 
 ## Panels
 
@@ -65,6 +65,18 @@ Bottom|panel_bottom.pdf|panel_bottom.dxf|2
 Top Deck|panel_top_deck.pdf|panel_top_deck.dxf|1
 Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 
+### Printed Parts
+Section|Part|STL Origin|QTY
+|:---:|:---:|:---:|:---:|
+Door / Side / Back Panel Mounts
+|Horizontal Panel Mounts|[This Mod](STL/Panels/Sides)|16
+|Vertical Panel Mounts|[This Mod](STL/Panels/Sides)|16
+Top / Bottom Panel
+|Left and Right (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
+|Front and Back (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
+|Left and Right (Long) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
+|Front and Back (Short) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
+
 ### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
@@ -82,17 +94,49 @@ Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCod
 - Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
 - Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
 
+### Dimensions
+Drawings are [here](Drawings), DXFs are [here](DXF)
+
+Panel|Drawing|DXF|QTY
+|:---:|:---:|:---:|:---:|
+Bottom Center Skirt Panel|skirt_bottom_center.pdf|skirt_bottom_center.dxf|3
+Bottom Side Skirt Panel|skirt_bottom_side.pdf|skirt_bottom_side.dxf|8
+Top Center Skirt Panel|skirt_top_center.pdf|skirt_top_center.dxf|3
+Top Side Skirt Panel|skirt_top_side.pdf|skirt_top_side.dxf|8
+Top LCD Skirt Panel|skirt_top_lcd.pdf|skirt_top_lcd.dxf|2
+
+### Printed Parts
+Section|Part|STL Origin|QTY
+|:---:|:---:|:---:|:---:|
+Square Corners Foot
+||Bottom Corner|[Corner Panel Mounts](../corner_panel_mounts/STL)|4
+||Top Corner|[This Mod](STL/Skirts/Corners/Top)|4
+||Foot Mount (to extrusion)|[Original](../../../STLs/Corners/Square%20Extrusions)|8
+||Bottom Corner Cap (panel mount)|[Corner Panel Mounts](../corner_panel_mounts/STL)|4
+||Top Corner Cap (panel mount)|[This Mod](STL/Skirts/Corners/Top)|4
+Skirts
+||Bottom Center Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|3
+||Bottom Left Side Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|4
+||Bottom Right Side Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|4
+||Bottom Power Inlet Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts)|1
+||Bottom Power Inlet Skirt Inlay|[FN-286 Plug Panel](../fn-286_plug_panel)|1
+||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
+||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
+||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
+||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1 (NEEDS SUPPORTS)
+Flanges
+||Center Flange|[This Mod](STL/Skirts/Flanges)|8
+||Side Flange|[This Mod](STL/Skirts/Flanges)|16
+Skirt Accents
+||Center Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|7
+||Left Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
+||Right Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
+
 ### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
 Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffner-emc-inc/FN286-1-06/817-1928-ND/1997125?utm_adgroup=Power%20Entry%20Connectors%20-%20Inlets%2C%20Outlets%2C%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects&utm_term=&productid=1997125&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYTt-iqS_a8Cr28pWmyBAhIXpcLJp1rsu5ffDzC7lFXPegO6_Ck0uYBoCgaoQAvD_BwE)|1
-
-### Included Mods
-Name|Creator|Description|Remarks
-|:---:|:---:|:---:|:---:|
-[FN-286 Plug Panel](../fn-286_plug_panel/)|mvieleers|Altered Plug Panel to hold the Schafnner FN-286 
-[Corner Panel Mounts](../corner_panel_mounts/)|mvieleers|Modded upper and lower corner caps and square feet to attach the top and bottom deck panels to the feet with magnets.|For my personal build I use different (higher) feet on the top and therefor the upper corner caps are also different. These versions can be found under this Mod itself.
 
 ## Heated Bed
 
@@ -100,6 +144,7 @@ Name|Creator|Description|Remarks
 
 ### Specifics
 - Mandela Rose Works ultra flat bed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is in development with Mandela Rose Works and uses 3 mounting points.
+- When not using a kinematic mounting solution, you will only need 3 of the original knurled knuts
 
 ## Z-Assembly
 
@@ -165,8 +210,11 @@ Name|Creator|Description|Remarks
 
 ![ERCF](Images/ercf.png)
 
+### Hardware and Printed Parts
+Please refer to the [Enraged Rabbit Github](https://github.com/EtteGit/EnragedRabbitProject)
+
 ### Specifics
- - 9 Channel ERCF. Number of channels irrelevant as I mount the ERCF to the extrusion.
+ - 9 Channel ERCF. Number of channels irrelevant as I mount the ERCF to the extrusion and the extrusion is mounted to the top deck panel. 
 
 #### A big thanks to all original authors for permission to include their mods in the Doomcube CAD!  Always follow the links to their respective repos for the latest stl's, and info on how to best make use of their mods.
 
