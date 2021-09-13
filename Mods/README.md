@@ -24,6 +24,7 @@ like so:
 | crag-h4k | [mgn12 galileo compatible cable gland mount](./crag-h4k/mgn12-galileo-cable-gland) | Simple cable gland mount for mgn12 x-axis mod and Galileo extruder. |
 | crag-h4k | [z chain m12 gland ptfe anchor](./crag-h4k/z-chain-cable-gland-ptfe-anchor) | Simple a cable gland mount and 4mm PTFE tube pass-through for upper Z chain anchor - attempts to preserve z-axis build volume.  |
 | mvieleers | [My Custom DoomCube-2](./mvieleers/my_doomcube) | 300m3 DoomCube-2 with several popular and own mods. |
-| mvieleers | [Schaffner FN-286 Plug Panel](./mvieleers/fn-286_plug_panel) | Altered Plug Panel to hold the Schafnner FN-286|
+| mvieleers | [Schaffner FN-286 Plug Panel](./mvieleers/fn-286_plug_panel) | Modded Plug Panel to hold the Schafnner FN-286|
+| mvieleers | [Corner Panel Mounts](./mvieleers/corner_panel_mounts)| Modded upper and lower corner caps and square feet to attach the top and bottom deck panels to the feet with magnets. |
 
 ---
