@@ -1,18 +1,45 @@
-![DOOMCUBE](Images/DCLogo.png)
 # DoomCube
-Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my DoomCube build in a full CAD. Some Mods are implemented as is, other Mods have been altered and some Mods I created myself (most of the times inspired by other Mods).
-I will try to capture all details below.
+Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my personalized DoomCube build in a full CAD. Some Mods I use are implemented as is, other Mods have been altered and some Mods I created myself (most of the times inspired by other Mods).
+Untouched mods will link to their official github, altered DoomCube specific mods will be hosted seperately under the Mods section of this DoomCube repository and Mods that are applicable to standard Voron V2 will be hosted from my own Github.
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
+## CAD
+A full CAD for this build will be available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
+As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete system again.
 
-#### Frame and panels:
+Click [HERE](../mvieleers/CAD/) for STEP files
 
-- 300m3 build
-- applied the panel mounting principle of the original DoomCube door to the side and back panels.
-- Added 20mm to the height. so the door, side and back panels all rest within a frame. This eliminates the need for the flanges to support the panels. All panels are mounted in panelmounts that directly bolt into the extrusions.
-- Top and bottom panels use the original system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
-- All panels have cutouts for wire passthroughs and for mounting the ERCF on top of the upper deck panel.
+## Frame
+Section|Part| Part #|QTY|Remarks
+|:---:|:----:|:----:|:---:|:---:|
+Bottom Frame
+||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|8
+||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|4|Used to keep the two extrusions from rotating
+||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
+Vertical Frame
+||Square Verticals|[HFSB5-4040-500-LWP-RWP-TPW](https://uk.misumi-ec.com/vona2/detail/110302684530/?HissuCode=HFSB5-4040-500-LWP-RWP-TPW&PNSearch=HFSB5-4040-500-LWP-RWP-TPW&KWSearch=HFSB5-4040-500-LWP-RWP-TPW&searchFlow=results2type)|4
+||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|2|Comes in 2m so needs to be cut to length
+Top Frame
+||Top Horizontals|[HFSB5-2040-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302684350/?HissuCode=HFSB5-2040-420-TPW&PNSearch=HFSB5-2040-420-TPW&KWSearch=HFSB5-2040-420-TPW&searchFlow=results2type)|4
+||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
+Bed Frame
+|||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|
+|||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
+||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar
+
+### Specifics
+- 300m3 build.
+- Added 20mm to the height of the vertical frame, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels. 
+- The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
+
+## Panels
+
+### Specifics
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
+- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
+- Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
+
 
 #### Skirts:
 
