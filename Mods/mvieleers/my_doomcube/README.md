@@ -1,14 +1,18 @@
 # DoomCube
-Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my personalized DoomCube build in a full CAD. Some Mods I use are implemented as is, other Mods have been altered and some Mods I created myself (most of the times inspired by other Mods).
-Untouched mods will link to their official github, altered DoomCube specific mods will be hosted seperately under the Mods section of this DoomCube repository and Mods that are applicable to standard Voron V2 will be hosted from my own Github.
+Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my personalized DoomCube build in a full CAD.
+Different types of Mods are used in this build:
+- DoomCube personalization. These are changes I made to the original DoomCube files, but are very specific to this particular build. Be very carefull if you use these files and make sure they can be applied to your situation. The files will be hosted under this "My DoomCube" Mod.
+- Official Mods. These are official Mods untouched by me and implemented as is. I will link to their official github.
+- Altered DoomCube specific Mods. These are Mods by me based on the official DoomCube files and applicable to any DoomCube build. They will be hosted seperately under the Mods section of the official DoomCube repository.
+- Voron V2 Mods by me. These are Mods by me that are applicable to any Voron V2 (Doomed or not) and will be hosted from my own Github.
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
 ## CAD
-A full CAD for this build will be available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
-As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete system again.
+A full CAD for this build will is available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
+As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete assembly again.
 
-Click [HERE](../mvieleers/CAD/) for STEP files
+Click [HERE](CAD) for STEP files
 
 ![Full Assembly](Images/full_assembly.png)
 
@@ -16,6 +20,12 @@ Click [HERE](../mvieleers/CAD/) for STEP files
 
 ![Frame](Images/frame.png)
 
+### Specifics
+- 300m3 build.
+- Added 20mm to the height of the vertical frame, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels. 
+- The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
+
+### Hardware
 Section|Part| Part #|QTY|Remarks
 |:---:|:----:|:----:|:---:|:---:|
 Bottom Frame
@@ -33,16 +43,17 @@ Bed Frame
 |||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar
 
-### Specifics
-- 300m3 build.
-- Added 20mm to the height of the vertical frame, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels. 
-- The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
-
 ## Panels
 
 ![Panels](Images/panels.png)
 
-Drawings are [here](../mvieleers/Drawings), DXFs are [here](../mvieleers/DXF)
+### Specifics
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion.
+- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
+- Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
+
+### Dimensions
+Drawings are [here](Drawings), DXFs are [here](DXF)
 
 Panel|Drawing|DXF|QTY
 |:---:|:---:|:---:|:---:|
@@ -54,28 +65,33 @@ Bottom|panel_bottom.pdf|panel_bottom.dxf|2
 Top Deck|panel_top_deck.pdf|panel_top_deck.dxf|1
 Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 
+### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Handle|[Aluminum Alloy Door Handle](https://nl.aliexpress.com/item/1407596513.html?spm=a2g0s.9042311.0.0.66fb4c4deTZEmA)|1|CAD shows printed door handle, I use this type of aluminum handle in size 120mm (ordered without screws and nuts)
 Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCode=HHPBSN5-SET&PNSearch=HHPBSN5-SET&KWSearch=HHPBSN5-SET&searchFlow=results2type)|2
-
-### Specifics
-- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounuts that bolt into the extrusion.
-- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
-- Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
-
 
 ## Skirts
 
 ![Skirts](Images/skirts.png)
 
 ### Specifics
-- Basis are the hexagon skirts from the DoomCube. 
+- Basis is the hexagon skirts from the original DoomCube. 
 - Due to side and back panel mounting system, flanges of the door are used all around as well as the panelmounts.
 - Panelmounts are 2 pieces per side, instead of 3. This might not be printable on smaller bed sizes.
-- Top and Bottom have different top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
-- Top Corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was also modded to hold the LCD.
-- At the bottom a center skirt was modded to accomodate a Schaffner FN-286 inlet.
+- Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
+- Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
+
+### Hardware
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
+Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffner-emc-inc/FN286-1-06/817-1928-ND/1997125?utm_adgroup=Power%20Entry%20Connectors%20-%20Inlets%2C%20Outlets%2C%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects&utm_term=&productid=1997125&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYTt-iqS_a8Cr28pWmyBAhIXpcLJp1rsu5ffDzC7lFXPegO6_Ck0uYBoCgaoQAvD_BwE)|1
+
+### Included Mods
+Name|Creator|Description
+|:---:|:---:|:---:|
+[FN-286 Plug Panel](../fn-286_plug_panel/)|mvieleers|Altered Plug Panel to hold the Schafnner FN-286 
 
 ## Heated Bed
 
