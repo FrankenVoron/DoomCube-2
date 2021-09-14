@@ -5,7 +5,7 @@ Different types of Mods are used in this build:
 - Official Mods. These are official Mods untouched by me and implemented as is. I will link to their official github where you will need to download the files relevant for you.
 - Altered DoomCube specific Mods. These are Mods by me based on the official DoomCube files and applicable to any DoomCube build. They will be hosted seperately under the Mods section of the official DoomCube repository. You will need to download the files from their own mod repository.
 - Voron V2 Mods by me. These are Mods by me that are applicable to any Voron V2 (Doomed or not) and will be hosted from my own Github where you can download the files.
-- **If I don't specify a part, it means that you will need to download the STL from the [Original DoomCube repository](https://github.com/FrankenVoron/DoomCube-2), or in case the part is not listed there as well, from the original [Voron 2 repository](https://github.com/VoronDesign/Voron-2).
+- **If I don't specify a part, it means that you will need to download the STL from the [Original DoomCube repository](https://github.com/FrankenVoron/DoomCube-2), or in case the part is not listed there as well, from the original [Voron 2 repository](https://github.com/VoronDesign/Voron-2).**
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
@@ -81,6 +81,8 @@ Top / Bottom Panel
 ### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
+Vertical extrusions|[HFSB5-2020-458-LCH-RCH](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-458-LCH-RCH)|8
+Horizontal extrusions|[HFSB5-2020-378-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-378-TPW)|8
 Handle|[Aluminum Alloy Door Handle](https://nl.aliexpress.com/item/1407596513.html?spm=a2g0s.9042311.0.0.66fb4c4deTZEmA)|1|CAD shows printed door handle, I use this type of aluminum handle in size 120mm (ordered without screws and nuts)
 Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCode=HHPBSN5-SET&PNSearch=HHPBSN5-SET&KWSearch=HHPBSN5-SET&searchFlow=results2type)|2
 
