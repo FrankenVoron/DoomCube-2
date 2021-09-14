@@ -1,10 +1,11 @@
 # DoomCube
 Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my personalized DoomCube build in a full CAD.
 Different types of Mods are used in this build:
-- DoomCube personalization. These are changes I made to the original DoomCube files, but are very specific to this particular build. Be very carefull if you use these files and make sure they can be applied to your situation. The files will be hosted under this "My DoomCube" Mod.
-- Official Mods. These are official Mods untouched by me and implemented as is. I will link to their official github.
-- Altered DoomCube specific Mods. These are Mods by me based on the official DoomCube files and applicable to any DoomCube build. They will be hosted seperately under the Mods section of the official DoomCube repository.
-- Voron V2 Mods by me. These are Mods by me that are applicable to any Voron V2 (Doomed or not) and will be hosted from my own Github.
+- DoomCube personalization. These are changes I made to the original DoomCube files, but are very specific to this particular build. Be very carefull if you use these files and make sure they can be applied to your situation. The files will be hosted under this "My DoomCube" Mod. You can find the files under [STL](STL)
+- Official Mods. These are official Mods untouched by me and implemented as is. I will link to their official github where you will need to download the files relevant for you.
+- Altered DoomCube specific Mods. These are Mods by me based on the official DoomCube files and applicable to any DoomCube build. They will be hosted seperately under the Mods section of the official DoomCube repository. You will need to download the files from their own mod repository.
+- Voron V2 Mods by me. These are Mods by me that are applicable to any Voron V2 (Doomed or not) and will be hosted from my own Github where you can download the files.
+- **If I don't specify a part, it means that you will need to download the STL from the [Original DoomCube repository](https://github.com/FrankenVoron/DoomCube-2), or in case the part is not listed there as well, from the original [Voron 2 repository](https://github.com/VoronDesign/Voron-2).
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
