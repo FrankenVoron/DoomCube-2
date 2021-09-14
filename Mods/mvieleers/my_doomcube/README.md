@@ -1,11 +1,14 @@
 # DoomCube
 Based on the DoomCube Mod for the Voron V2 and several popular Mods out there, I decided to capture my personalized DoomCube build in a full CAD.
+
+This repository will list any Mods used that deviate from the regular Voron V2.4 and DoomCube build.
+
 Different types of Mods are used in this build:
-- DoomCube personalization. These are changes I made to the original DoomCube files, but are very specific to this particular build. Be very carefull if you use these files and make sure they can be applied to your situation. The files will be hosted under this "My DoomCube" Mod. You can find the files under [STL](STL)
-- Official Mods. These are official Mods untouched by me and implemented as is. I will link to their official github where you will need to download the files relevant for you.
+- Personal DoomCube modifications. These are the deviations from the original DoomCube files. **Please note: the modifications are specific to this particular build which is a 300m3 build. Be very carefull if you use these files and make sure they can be applied to your situation.** The files will be hosted under this "My DoomCube" Mod. You can find the files under [STL](STL)
+- Official Mods. These are official Mods for the Voron V2.4 and DoomCube and are untouched by me and implemented as is. I will link to their official github where you will need to download the files relevant for you.
 - Altered DoomCube specific Mods. These are Mods by me based on the official DoomCube files and applicable to any DoomCube build. They will be hosted seperately under the Mods section of the official DoomCube repository. You will need to download the files from their own mod repository.
 - Voron V2 Mods by me. These are Mods by me that are applicable to any Voron V2 (Doomed or not) and will be hosted from my own Github where you can download the files.
-- **If I don't specify a part, it means that you will need to download the STL from the [Original DoomCube repository](https://github.com/FrankenVoron/DoomCube-2), or in case the part is not listed there as well, from the original [Voron 2 repository](https://github.com/VoronDesign/Voron-2).**
+**If I don't specify a part, it means that you will need to download the STL from the [Original DoomCube repository](https://github.com/FrankenVoron/DoomCube-2), or in case the part is not listed there as well, from the original [Voron 2 repository](https://github.com/VoronDesign/Voron-2).**
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
@@ -23,7 +26,9 @@ Click [HERE](CAD) for STEP files
 
 ### Specifics
 - 300m3 build.
-- Added 20mm to the height of the vertical frame, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels. 
+- I'm using 20mm taller vertical 4040s, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels.
+- Instead of 2020's for the top frame, I'm using 4020's.
+- Instead of single 2020's for the bottom frame, I'm using double 2020's in the bottom frame in order for the panels to rest on top of the additional 2020 extrusion.
 - The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
 
 ### Hardware
