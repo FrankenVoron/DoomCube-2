@@ -1,4 +1,4 @@
-# Corner Panel Mounts
+# Galileo ADXL345 Chain Replacement with Umbilical Mount
 
 This mod is an alteration of crag-h4k's mod to replace the chain mount on a Galileo extruder with an adxl345 mount. The original mod can be found [here](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/crag-h4k/galileo-adxl345-chain-replacement).
 
