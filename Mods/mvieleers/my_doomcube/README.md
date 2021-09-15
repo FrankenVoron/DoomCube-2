@@ -214,12 +214,12 @@ There are no deviations from the standard Voron V2 in terms of extrusions.
 Like the Gantry, the X-Carriage is a combination of several official Mods. Again, take good care to select the correct STL's that work with your setup.
 |Mod|Creator|
 |:---:|:---:|
-|[BlueDragonX's Klicky Mods-Voron 2.4 Direct Mount MGN12 X Carriage](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx|bluedragonx
-|[Galileo Clockwork](https://github.com/JaredC01/Galileo]|JaredC01
+|[BlueDragonX's Klicky Mods-Voron 2.4 Direct Mount MGN12 X Carriage](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx)|bluedragonx
+|[Galileo Clockwork](https://github.com/JaredC01/Galileo)|JaredC01
 |[AB-BN-30](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN)|Badnoob
 |[Simple mount for Hartk board for galileo.](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Majarspeed/Hartk_Mount_Galileo)|Majarspeed
 |[Afterburner Toolhead Board - ERCF version](https://github.com/hartk1213/MISC/tree/main/PCBs/Afterburner_Toolhead_PCB)|hartk
-[Galileo ADXL345 Chain Replacement with Umbilical Mount](../adxl_mount_w_umbilical|mvieleers
+[Galileo ADXL345 Chain Replacement with Umbilical Mount](../adxl_mount_w_umbilical)|mvieleers
  
 ### Hardware
 I'm using a Mosquito Standard Flow hotend.
