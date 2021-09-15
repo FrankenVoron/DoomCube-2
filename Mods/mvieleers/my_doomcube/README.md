@@ -197,9 +197,9 @@ The Gantry is a combination of several official Mods. Take good care to select t
 |Mod|Creator|
 |:---:|:---:|
 |[MGN12 X axis](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)|arkeet
-|[Pins Mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Pins_Mod)|hartk
-|[Y Endstop Relocation](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation)|hartk
-|[GE5C](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs)|hartk
+|[Pins Mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Pins_Mod)|hartk1213
+|[Y Endstop Relocation](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation)|hartk1213
+|[GE5C](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs)|hartk1213
 |[Gantry Backing Plates](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/whoppingpochard/extrusion_backers)|whoppingpochard
 |[lil a drive cable cover](https://github.com/mvieleers/DoomCube-2/tree/main/Mods/crag-h4k/lil-a-drive-cable-cover)|crag-h4k
 
@@ -218,7 +218,7 @@ Like the Gantry, the X-Carriage is a combination of several official Mods. Again
 |[Galileo Clockwork](https://github.com/JaredC01/Galileo)|JaredC01
 |[AB-BN-30](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN)|Badnoob
 |[Simple mount for Hartk board for galileo.](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Majarspeed/Hartk_Mount_Galileo)|Majarspeed
-|[Afterburner Toolhead Board - ERCF version](https://github.com/hartk1213/MISC/tree/main/PCBs/Afterburner_Toolhead_PCB)|hartk
+|[Afterburner Toolhead Board - ERCF version](https://github.com/hartk1213/MISC/tree/main/PCBs/Afterburner_Toolhead_PCB)|hartk1213
 [Galileo ADXL345 Chain Replacement with Umbilical Mount](../adxl_mount_w_umbilical)|mvieleers
 
 ### Printed Parts
@@ -226,6 +226,28 @@ The CAD contains the Galileo Clockwork body. In reality I am using the non-relea
  
 ### Hardware
 I'm using a Mosquito Standard Flow hotend.
+
+## Other
+
+![Other](Images/other.png)
+
+### Specifics
+This section contains several additional Mods to complete the setup within the chamber
+|Mod|Creator|
+|:---:|:---:|
+|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213
+|[Klicky-Probe](https://github.com/jlas1/Klicky-Probe)|jlas1 a.k.a. JosAr
+|[Purge brush bucket](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Purge_Brush_Bucket)|Annex Engineering
+|[Nevermore Micro V5 Duo](https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro)|0ndsk4
+|[Angry Led Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/LED_mount)|42bios
+|[USB Camera Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Takuya/USBCameraMount)|Takuya
+
+ - LED
+ - Klicky Probe
+ - hartk Sexbolt
+ - Nevermore Duo, with modded plenum
+ - Annex's purge bucket
+ - Webcam mount for Wansview 1080o
 
 ## Electronics
 
@@ -240,18 +262,6 @@ I'm using a Mosquito Standard Flow hotend.
 - All grommets are based on loco... wire grommet
 - BED PCB for central connection of the wires at the bottom of the chamber. Bed Mains and Fuse, Bed Thermistor, Z Endstop, 2x bed fan or nevermore micro.
 - DIN Mounts for BTT Octopus, Tircown's ERCF Easy Board, LRS-200-24
-
-## Other
-
-![Other](Images/other.png)
-
-### Specifics
- - LED
- - Klicky Probe
- - hartk Sexbolt
- - Nevermore Duo, with modded plenum
- - Annex's purge bucket
- - Webcam mount for Wansview 1080o
 
 ## ERCF
 
