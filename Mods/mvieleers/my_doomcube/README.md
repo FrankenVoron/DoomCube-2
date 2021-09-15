@@ -162,7 +162,6 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 - Z-Drives are completely original DoomCube
 - Motor Mounts are taken from the DoomCube CAD, there are no stl's for this in the repository which implies to use the original V2.4 parts. Those have 3 mounting points though, I like the 4 mounting points better, so I created the stl from the DoomCube CAD.
 - The belt covers are modded from crag-h4k's belt covers, I just added a somewhat different ledge to make a tighter integration to the panels.
-- Cable cover for A drive by crag-something
 
 Section|Part|STL Origin|QTY
 |:---:|:---:|:---:|:---:|
