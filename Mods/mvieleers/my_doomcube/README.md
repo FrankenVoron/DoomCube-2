@@ -193,7 +193,7 @@ Belt Cover
 ![Gantry](Images/gantry.png)
 
 ### Specifics
-The Gantry is a combination of several official Mods:
+The Gantry is a combination of several official Mods. Take good care to select the correct versions from each Mod so they work together.
 |Mod|Creator|
 |:---:|:---:|
 |[MGN12 X axis](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)|arkeet
@@ -201,6 +201,7 @@ The Gantry is a combination of several official Mods:
 |[Y Endstop Relocation](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation)|hartk
 |[GE5C](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs)|hartk
 |[Gantry Backing Plates](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/whoppingpochard/extrusion_backers)|whoppingpochard
+|[lil a drive cable cover](https://github.com/mvieleers/DoomCube-2/tree/main/Mods/crag-h4k/lil-a-drive-cable-cover)|crag-h4k
 
 ### Hardware
 There are no deviations from the standard Voron V2 in terms of extrusions.
@@ -210,14 +211,18 @@ There are no deviations from the standard Voron V2 in terms of extrusions.
 ![X-Carriage](Images/x-carriage.png)
 
 ### Specifics
-- klicky probe mod for x-carriage
-- crag-something adxl mount (modded)
-- hartk PCB
-- majarspeed pcb mount for galileo
-- jaredc01 galileo
-- badnoob ab-bn-30
-- Mosquito
-- ERCF sensor for galileo, experimental version for v1.1 (to be released). Not in cad as there is only an stl.
+Like the Gantry, the X-Carriage is a combination of several official Mods. Again, take good care to select the correct STL's that work with your setup.
+|Mod|Creator|
+|:---:|:---:|
+|[BlueDragonX's Klicky Mods-Voron 2.4 Direct Mount MGN12 X Carriage](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx|bluedragonx
+|[Galileo Clockwork](https://github.com/JaredC01/Galileo]|JaredC01
+|[AB-BN-30](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN)|Badnoob
+|[Simple mount for Hartk board for galileo.](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Majarspeed/Hartk_Mount_Galileo)|Majarspeed
+|[Afterburner Toolhead Board - ERCF version](https://github.com/hartk1213/MISC/tree/main/PCBs/Afterburner_Toolhead_PCB)|hartk
+[Galileo ADXL345 Chain Replacement with Umbilical Mount](../adxl_mount_w_umbilical|mvieleers
+ 
+### Hardware
+I'm using a Mosquito Standard Flow hotend.
 
 ## Electronics
 
