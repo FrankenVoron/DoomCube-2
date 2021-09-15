@@ -193,10 +193,17 @@ Belt Cover
 ![Gantry](Images/gantry.png)
 
 ### Specifics
-- MGN 12 Mod Arkeet
-- Pins Mod hartk
-- Y relocation Mod hartk
-- GE5C mod hartk
+The Gantry is a combination of several official Mods:
+|Mod|Creator|
+|:---:|:---:|
+|[MGN12 X axis](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)|arkeet
+|[Pins Mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Pins_Mod)|hartk
+|[Y Endstop Relocation](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation)|hartk
+|[GE5C](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs)|hartk
+|[Gantry Backing Plates](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/whoppingpochard/extrusion_backers)|whoppingpochard
+
+### Hardware
+There are no deviations from the standard Voron V2 in terms of extrusions.
 
 ## X-Carriage
 
