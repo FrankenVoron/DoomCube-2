@@ -220,6 +220,9 @@ Like the Gantry, the X-Carriage is a combination of several official Mods. Again
 |[Simple mount for Hartk board for galileo.](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Majarspeed/Hartk_Mount_Galileo)|Majarspeed
 |[Afterburner Toolhead Board - ERCF version](https://github.com/hartk1213/MISC/tree/main/PCBs/Afterburner_Toolhead_PCB)|hartk
 [Galileo ADXL345 Chain Replacement with Umbilical Mount](../adxl_mount_w_umbilical)|mvieleers
+
+### Printed Parts
+The CAD contains the Galileo Clockwork body. In reality I am using the non-released version of the ERCF 1.1 filament sensor which replaces the Galileo Clockwork body. This STL circulates in the Enraged Rabbit Channel on Discord, but as it is not officially released, I will not provide it in this repository yet. It will be released together with the new ERCF 1.1 version. Please keep an eye out on the official and amazing [Enraged Rabbit Project](https://github.com/EtteGit/EnragedRabbitProject) for more information.
  
 ### Hardware
 I'm using a Mosquito Standard Flow hotend.
