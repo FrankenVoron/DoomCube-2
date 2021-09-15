@@ -155,6 +155,16 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 - Mandela Rose Works ultra flat bed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is in development with Mandela Rose Works and uses 3 mounting points.
 - When not using a kinematic mounting solution, you will only need 3 of the original knurled knuts
 
+### Hardware
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+Mic6 Bed|[Mandala Rose Works Ultra Flat Bed](https://www.mandalaroseworks.com/shop/voron/voron-300-standard-bed)|1|
+Heater|[Keenovo 240x240 600W 220V](https://keenovo.store/collections/standard-keenovo-silicone-heaters/products/keenovo-square-silicone-heater-3d-printer-build-plate-heatbed-heating-pad?variant=8324020961335)|1
+Magnetic Sheet|[Graviflex 310x310](https://fermio.xyz/en/mechanical/magnetic-sheets/121/magnetic-sheet-310x310x1mm)|1|
+Spring Steel Plate|[300x300 Spring Steel Plate](https://www.vonwange.com/product/300x300mm-1-4310-spring-steel-plate/)|1|
+PEI Sheet|[Buildtak 12x12" PEI](https://www.buildtak.com/product/buildtak-3d-printing-surface-pei/)|1|
+Knurled Nuts|Voron Standard Knurled Nuts|3|
+
 ## Z-Assembly
 
 ![Z Assembly](Images/z_assembly.png)
@@ -162,7 +172,8 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 ### Specifics
 - Z-Drives are completely original DoomCube
 - Motor Mounts are taken from the DoomCube CAD, there are no stl's for this in the repository which implies to use the original V2.4 parts. Those have 3 mounting points though, I like the 4 mounting points better, so I created the stl from the DoomCube CAD.
-- The belt covers are modded from crag-h4k's belt covers, I just added a somewhat different ledge to make a tighter integration to the panels.
+- The belt covers are modded from the original non-reflectix belt covers, I just added a somewhat different ledge to make a tighter integration to the panels.
+- I'm using the 9mm pinned Z-Idlers
 
 Section|Part|STL Origin|QTY
 |:---:|:---:|:---:|:---:|
@@ -172,8 +183,10 @@ Z-Drive
 Motor Mount
 ||Motor Mount|[This Mod](STL/Z-Assembly/Z-Drives)|2 standard, 2 mirrored
 Z-Idler
-||
-
+||Belt Tensioner 9mm pinned|[Original](https://github.com/mvieleers/DoomCube-2/tree/main/STLs/Z_Idlers)|4
+||Tensioner bracket|[Original](https://github.com/mvieleers/DoomCube-2/tree/main/STLs/Z_Idlers)|2 standard, 2 mirrored
+Belt Cover
+|| Belt Cover|[This Mod](STL/Z-Assembly/Belt%20Covers)|2 standard, 2 mirrored
 
 ## Gantry
 
