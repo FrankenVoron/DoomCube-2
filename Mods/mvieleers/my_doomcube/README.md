@@ -242,12 +242,11 @@ This section contains several additional Mods to complete the setup within the c
 |[Angry Led Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/LED_mount)|42bios
 |[USB Camera Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Takuya/USBCameraMount)|Takuya
 
- - LED
- - Klicky Probe
- - hartk Sexbolt
- - Nevermore Duo, with modded plenum
- - Annex's purge bucket
- - Webcam mount for Wansview 1080o
+### Hardware
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+Led Bar|[LumenTEC LT3 Profile](https://lumentec.eu/Aluminium-Eckig-LED-Profil-100cm-45-fuer-8-12mm-LED-Streifen-Profil-LT3-Abdeckung)|2|
+USB Camera|[Wansview 1080p Webcam](https://www.wansview.com/cn/proinfo.aspx?proid=37&categoryid=3&aids=1)|1
 
 ## Electronics
 
@@ -263,16 +262,13 @@ This section contains several additional Mods to complete the setup within the c
 - BED PCB for central connection of the wires at the bottom of the chamber. Bed Mains and Fuse, Bed Thermistor, Z Endstop, 2x bed fan or nevermore micro.
 - DIN Mounts for BTT Octopus, Tircown's ERCF Easy Board, LRS-200-24
 
-## ERCF
+## Enraged Rabbit Carrot Feeder
+
+The ERCF is completely stock please refer to the amazing [Enraged Rabbit Project Github](https://github.com/EtteGit/EnragedRabbitProject) by EtteGit.
 
 ![ERCF](Images/ercf.png)
 
-### Hardware and Printed Parts
-Please refer to the [Enraged Rabbit Github](https://github.com/EtteGit/EnragedRabbitProject)
-
 ### Specifics
- - 9 Channel ERCF. Number of channels irrelevant as I mount the ERCF to the extrusion and the extrusion is mounted to the top deck panel. 
+ - 9 Channel ERCF. Number of channels is irrelevant as I mount the ERCF to the extrusion and the extrusion is mounted to the top deck panel.
 
-#### A big thanks to all original authors for permission to include their mods in the Doomcube CAD!  Always follow the links to their respective repos for the latest stl's, and info on how to best make use of their mods.
-
-
+#### A big thanks to all original creators for all their hard work to create all the Mods that were used in this DoomCube build. Always follow the links to their respective repos for the latest stls, and info on how to best make use of their mods.
