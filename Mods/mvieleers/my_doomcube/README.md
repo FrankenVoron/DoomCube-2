@@ -79,10 +79,10 @@ Door / Side / Back Panel Mounts
 |Horizontal Panel Mounts|[This Mod](STL/Panels/Sides)|16
 |Vertical Panel Mounts|[This Mod](STL/Panels/Sides)|16
 Top / Bottom Panel
-|Left and Right (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
+|Left and Right (Long) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
 |Front and Back (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
 |Left and Right (Long) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
-|Front and Back (Short) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
+|Front and Back (Short) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
 
 ### Hardware
 Hardware|Part|QTY|Remarks
