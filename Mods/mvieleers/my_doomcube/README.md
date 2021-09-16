@@ -56,6 +56,7 @@ Bed Frame
 
 ### Specifics
 - The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. KayosMaker has created an awesome [panelmount generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) to create those panelmounts. His system is a "tip-inn" system so it can be removed without disassembling the frame. In my case, I didn't need it to be removable, so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
+- The slot covers (see frame section) should create a good seal and a tight fit, which should make the panels to securely stay in place. If this is not the case, I have modded the excellent [Annex Engineers Panel Clips for 2020 extrusions](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners). The Mod involves flattening the clips so it sits flush with the side panel frame. Please take note of the [Annex Engineering EULA](STL/Panels/Panel%20Clips/LICENSE.md)
 - Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
 - Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
@@ -80,11 +81,16 @@ Door / Side / Back Panel Mounts
 |Corner Mirrored|[This Mod](STL/Panels/Sides)|8
 |Straight Short|[This Mod](STL/Panels/Sides)|8
 |Straight Long|[This Mod](STL/Panels/Sides)|8
+|Corner Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
+|Center Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
+|Key for Corner and Center Panel Clips|[Annex Engineering Offical](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners/key/STL/key_asymmetric_3.STL)|32 (optional)
 Top / Bottom Panel
 |Left and Right (Long) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
 |Front and Back (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
 |Left and Right (Long) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
 |Front and Back (Short) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
+
+**Please note: the top/bottom panel mounts will probably change to KayosMaker's Mod**
 
 ### Hardware
 Hardware|Part|QTY|Remarks
