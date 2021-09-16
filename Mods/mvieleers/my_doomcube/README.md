@@ -85,12 +85,12 @@ Door / Side / Back Panel Mounts
 |Center Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
 |Key for Corner and Center Panel Clips|[Annex Engineering Offical](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners/key/STL/key_asymmetric_3.STL)|32 (optional)
 Top / Bottom Panel
-|Left and Right (Long) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
-|Front and Back (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
-|Left and Right (Long) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
-|Front and Back (Short) Side Panel Mount|[This Mod](STL/Panels/Top_Bottom)|8
-
-**Please note: the top/bottom panel mounts will probably change to KayosMaker's Mod**
+|Straight with Bracket|[This Mod](STL/Panels/Top_Bottom)|4
+|Straight without Bracket|[This Mod](STL/Panels/Top_Bottom)|4
+|Corner piece 1|[This Mod](STL/Panels/Top_Bottom)|4
+|Corner piece 2|[This Mod](STL/Panels/Top_Bottom)|4
+|Corner piece 1 mirrored|[This Mod](STL/Panels/Top_Bottom)|4
+|Corner piece 2 mirrored|[This Mod](STL/Panels/Top_Bottom)|4
 
 ### Hardware
 Hardware|Part|QTY|Remarks
@@ -142,8 +142,8 @@ Skirts
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1 (NEEDS SUPPORTS)
 Flanges
-||Center Flange|[This Mod](STL/Skirts/Flanges)|8
-||Side Flange|[This Mod](STL/Skirts/Flanges)|16
+||Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
+||Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
 Skirt Accents
 ||Center Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|7
 ||Left Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
