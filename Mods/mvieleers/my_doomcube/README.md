@@ -255,14 +255,46 @@ USB Camera|[Wansview 1080p Webcam](https://www.wansview.com/cn/proinfo.aspx?proi
 ![Electronics](Images/electronics.png)
 
 ### Specifics
-- Wire grommet for passthrough of Tircowns ERCF easy board to the ERCF
-- PTFE grommet for passthrough of PTFE from top deck panel to top panel
-- PTFE and Umbilical grommet for passthrough of PTFE and Wires to the toolhead
-- Wire grommet for the Z-chain wires
-- Wire grommet for the wires trough the bottom panel to the bottom of the chamber
-- All grommets are based on loco... wire grommet
-- BED PCB for central connection of the wires at the bottom of the chamber. Bed Mains and Fuse, Bed Thermistor, Z Endstop, 2x bed fan or nevermore micro.
-- DIN Mounts for BTT Octopus, Tircown's ERCF Easy Board, LRS-200-24
+- I'm using 5 wire grommets for the passthrough of wires and the reverse bowden tube through the panels. The wire grommets are specific to this build, however the initial idea and credit goes to LoCoCNC's [Wire Grommet Mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoCoCNC/wire_grommets).
+  - Wire grommet for passthrough of Tircowns ERCF easy board to the ERCF
+  - PTFE grommet for passthrough of PTFE from top deck panel to top panel
+  - PTFE and Umbilical grommet for passthrough of PTFE and Wires to the toolhead
+  - Wire grommet for the Z-chain wires
+  - Wire grommet for the wires trough the bottom panel to the bottom of the chamber
+- The Z-chain uses the original Voron V2.4 mounting brackets, they are simply reversed to run it from the top to the A drive
+- I'm using a Raspberry Pi 4b, directly attached to the Waveshare 4.3" LCD screen, the BTT Octopus v1.1 and Tircown's ERCF Easy Board. I use TMC 2209 as stepper driver for everything.
+- In the chamber, to tidy up the wiring under and behind the heated bed, I'm using a PCB as a central connection point.
+- As the standard DoomCube was envisioned, I have my PSU and SSR on the underside and the controller boards in the top compartiment. This way high and low voltage are seperated and you have easy access to the controller boards.
+- All electronics in the lower and upper compartment are placed on DIN rails so I never need to change holes in the panels to mount them. The DIN Rails are not screwed to the panel (like on the Voron V2.4, but are attached with screws (on top of the skirts base) to the extrusion.
+- I use Phoenix UT 2,5 terminal blocks for wire management, this is optional.
+
+|Mod|Creator|
+|:---:|:---:|
+[Heated Bed PCB](https://github.com/mvieleers/Voron-V2/tree/main/PCB/Heated%20Bed)|mvieleers
+[V2_Octopus_Mount](https://github.com/walttriano/V2_Octopus_Mount)|walttriano
+[ERCF Easy Board Mount](https://github.com/Tircown/ERCF-easy-brd/tree/main/mods/DIN%20mount)|mvieleers
+
+### Printed Parts
+Part|STL Origin|QTY
+|:---:|:---:|:---:|
+ERCF Wire Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+PTFE Wire Grommet(4 parts)|[This Mod](STL/Electronics/Grommets)
+PTFE and Umbilical Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+Z-Chain Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+Heated Bed Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+
+### Hardware
+Hardware|Part|QTY|Remarks
+|:---:|:---:|:---:|:---:
+Controllers
+||[Raspberry Pi 4b](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)|1|
+||[BTT Octopus v1.1 with TMC 2209](https://nl.aliexpress.com/item/1005002613363656.html?src=google&src=google&memo1=freelisting&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=12556492032&albag=121061693882&trgt=539263010115&crea=nl1005002613363656&netw=u&device=c&albpg=539263010115&albpd=nl1005002613363656&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8LQxuAfiyGBFZ4bwXYRCNFwvKxnK1mLZ_Ikdjdyy8XdzH4IvoiVgwaApkEEALw_wcB&gclsrc=aw.ds&aff_fcid=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&terminal_id=15a09c656a8543e3bfa63f7b2fc963c2)|1|
+||[Tircown's ERCF Easy Board with TMC 2209](https://github.com/Tircown/ERCF-easy-brd)|1|
+4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
+Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffner-emc-inc/FN286-1-06/817-1928-ND/1997125?utm_adgroup=Power%20Entry%20Connectors%20-%20Inlets%2C%20Outlets%2C%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects&utm_term=&productid=1997125&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYTt-iqS_a8Cr28pWmyBAhIXpcLJp1rsu5ffDzC7lFXPegO6_Ck0uYBoCgaoQAvD_BwE)|1
+PSU|[Meanwell LRS-200-24](https://www.digikey.nl/product-detail/en/mean-well-usa-inc/LRS-200-24/1866-3332-ND/7705026?utm_adgroup=AC%20DC%20Converters&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Power%20Supplies%20-%20External%2FInternal%20%28Off-Board%29&utm_term=&productid=7705026&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8A3oB3rzFBTurlmHVQ8Iba5ArECfS3tNMoFBuKY0rHg7v0oA5mFFcaAulAEALw_wcB)|1|
+SSR|[Omron G3NA](https://industrial.omron.nl/nl/products/G3NA-210B-UTU-5-24VDC)|1|
+Terminal Blocks|[Phoenix Contact UT2,5](https://www.phoenixcontact.com/online/portal/nl/pxc/product_list_pages/!ut/p/z1/xVTfT9swEP5beMij43PjpOYxVBOIAQN1gyYvke04rVnipI7bAH_9nG0vlSDVhKr5wb6Tvvvul-9wjlc4N3yv19zp1vDa61meFGz2dXF1ScktkPsYHi6WC3bxbf7IUoIfcY7zTuoSZ1VZKjaLACWMRIhKViFeAkEllTSmVcRFwke0NK5zG5yZ2tQBDEoE0HBtAuhsW-6k6wOode-Kjq-VlyulSuQ2tt2tN4VTttE-sELUrfzZFx0iMfI-YObvAAQDxeMKEJlVAlGhCDrnEUOkOgfJBY8oMPw0mdNljPPplP_YwwcnhWP2mbeffwh4iPHTXqsB_zCtbXwLlv9Y4Ss45mH-SQ_T9Ak9Kf3tielPW5wvyWnpPxv99bHP6xeCft5u89TPcWucenF49f8GOZ8Mdxzl34CJWV2auri7Ke5Xi7ubYx87_lvOFxl23PImHBOzoVXbneqdKkPbDqFsd8bhjMAhtG-tC0ttlRw3K87S5eI9rl7VHuGpRhVn9B2SSqvat3OUD6uGu6Zh0atG2fV-GL5XzUKww-c1gmfKxZsSb2l6dvYLLIAPAw!!/p0/IZ7_82KCHG41M01P50QBSC8BO7V865=CZ6_82KCHG41M01P50QBSC8BO7V8A1=MEpxc.param.sort.direction!ASC=pxc.param.pager.requested.row.count!10=pxc.param.pager.selected.page!1=pxc.param.sort.field!sort_p-15-01-02-01==/#Z7_82KCHG41M01P50QBSC8BO7V865)|As much as you need|Several accessoires available
 
 ## Enraged Rabbit Carrot Feeder
 
