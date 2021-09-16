@@ -55,7 +55,7 @@ Bed Frame
 ![Panels](Images/panels.png)
 
 ### Specifics
-- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion.
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. KayosMaker has created an awesome [panelmount generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) to create those panelmounts. His system is a "tip-inn" system so it can be removed without disassembling the frame. In my case, I didn't need it to be removable, so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
 - Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
 - Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
@@ -76,8 +76,10 @@ Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 Section|Part|STL Origin|QTY
 |:---:|:---:|:---:|:---:|
 Door / Side / Back Panel Mounts
-|Horizontal Panel Mounts|[This Mod](STL/Panels/Sides)|16
-|Vertical Panel Mounts|[This Mod](STL/Panels/Sides)|16
+|Corner|[This Mod](STL/Panels/Sides)|8
+|Corner Mirrored|[This Mod](STL/Panels/Sides)|8
+|Straight Short|[This Mod](STL/Panels/Sides)|8
+|Straight Long|[This Mod](STL/Panels/Sides)|8
 Top / Bottom Panel
 |Left and Right (Long) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
 |Front and Back (Short) Center Panel Mount|[This Mod](STL/Panels/Top_Bottom)|4
