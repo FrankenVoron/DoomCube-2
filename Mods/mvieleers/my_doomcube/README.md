@@ -142,8 +142,8 @@ Skirts
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1 (NEEDS SUPPORTS)
 Flanges
-||Center Flange|[This Mod](STL/Skirts/Flanges)|8
-||Side Flange|[This Mod](STL/Skirts/Flanges)|16
+||Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
+||Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
 Skirt Accents
 ||Center Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|7
 ||Left Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
