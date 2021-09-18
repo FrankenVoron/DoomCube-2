@@ -55,9 +55,9 @@ Bed Frame
 ![Panels](Images/panels.png)
 
 ### Specifics
-- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. KayosMaker has created an awesome [panelmount generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) to create those panelmounts. His system is a "tip-inn" system so it can be removed without disassembling the frame. In my case, I didn't need it to be removable, so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. KayosMaker has created an awesome [frame generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) to create those panelmounts. His system is a "tip-inn" system so it can be removed without disassembling the frame. In my case, I didn't need it to be removable, so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
 - The slot covers (see frame section) should create a good seal and a tight fit, which should make the panels to securely stay in place. If this is not the case, I have modded the excellent [Annex Engineers Panel Clips for 2020 extrusions](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners). The Mod involves flattening the clips so it sits flush with the side panel frame. Please take note of the [Annex Engineering EULA](STL/Panels/Panel%20Clips/LICENSE.md)
-- Top and bottom panels use the original DoomCube mounting system. Unfortunately this requires them to be inserted during the build, but I haven't been able to come up with an alternative solution that allows for installation after the frame build.
+- Top and bottom panels use [frame generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) by KayosMaker. His system is a "tip-inn" system so it can be removed without disassembling the frame. The "tip-inn" system is still a work in progress and still requires a solution to keep it in place. I didn't need it to be removable (as opposed to the side panels), so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
 - Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
 ### Dimensions
@@ -306,6 +306,8 @@ Terminal Blocks|[Phoenix Contact UT2,5](https://www.phoenixcontact.com/online/po
 ## Enraged Rabbit Carrot Feeder
 
 The ERCF is completely stock please refer to the amazing [Enraged Rabbit Project Github](https://github.com/EtteGit/EnragedRabbitProject) by EtteGit.
+The CAD shows the ERCF v1.0. EtteGit has released v1.1 which has an enormous amounts of improvements. The ERCF is only included in the CAD to show how it is mounted in my doomcube build, this will work exactly the same for ERCF v1.1 as well. I therefor did not update the CAD on this part.
+If you are planning to build an ERCF, please refer to the [Enraged Rabbit Project Github](https://github.com/EtteGit/EnragedRabbitProject) by EtteGit for the current release and all relevant files.
 
 ![ERCF](Images/ercf.png)
 
