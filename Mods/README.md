@@ -27,5 +27,6 @@ like so:
 | mvieleers | [Schaffner FN-286 Plug Panel](./mvieleers/fn-286_plug_panel) | Modded Plug Panel to hold the Schafnner FN-286|
 | mvieleers | [Corner Panel Mounts](./mvieleers/corner_panel_mounts)| Modded upper and lower corner caps and square feet to attach the top and bottom deck panels to the feet with magnets. |
 | mvieleers | [Galileo ADXL345 Chain Replacement with Umbilical Mount](./mvieleers/adxl_mount_w_umbilical)| This mod is an alteration of crag-h4k's mod to replace the chain mount on a Galileo extruder with an adxl345 mount. The adxl345 mount has cutouts so an umbilical can be mounted to the adxl345 mount with tie-wraps.
+| KayosMaker | [tip-in swing-in panels](./KayosMaker/Toolless%20Panel%20Mod) | Work In Progress - nothing now, just a frame generator and some shaved corner pieces.  will post the rest soon |
 
 ---
