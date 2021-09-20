@@ -5,7 +5,6 @@ This mod is an alteration of crag-h4k's mod to replace the chain mount on a Gali
 The only thing I did to it, was to add two cutouts that allow two 3mm tie-wraps to be attached to the mount. This can be used to secure an umbilical to the X-carriage.
 
 ![ADXL Mount with Umbilical mount](Images/overview.png)
-This mod replaces the square feet and the upper and lower corner caps from the original DoomCube.
 
 ### Hardware
 Part|QTY
