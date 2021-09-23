@@ -140,7 +140,7 @@ Skirts
 ||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
 ||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
-||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1 (NEEDS SUPPORTS)
+||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
 Flanges
 ||Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
 ||Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
@@ -306,12 +306,19 @@ Terminal Blocks|[Phoenix Contact UT2,5](https://www.phoenixcontact.com/online/po
 ## Enraged Rabbit Carrot Feeder
 
 The ERCF is completely stock please refer to the amazing [Enraged Rabbit Project Github](https://github.com/EtteGit/EnragedRabbitProject) by EtteGit.
-The CAD shows the ERCF v1.0. EtteGit has released v1.1 which has an enormous amounts of improvements. The ERCF is only included in the CAD to show how it is mounted in my doomcube build, this will work exactly the same for ERCF v1.1 as well. I therefor did not update the CAD on this part.
-If you are planning to build an ERCF, please refer to the [Enraged Rabbit Project Github](https://github.com/EtteGit/EnragedRabbitProject) by EtteGit for the current release and all relevant files.
 
 ![ERCF](Images/ercf.png)
 
 ### Specifics
- - 9 Channel ERCF. Number of channels is irrelevant as I mount the ERCF to the extrusion and the extrusion is mounted to the top deck panel.
+ - 12 Channel ERCF. Number of channels is irrelevant as I mount the ERCF to the extrusion and the extrusion is mounted to the top deck panel.
+
+### Hardware
+For mounting the frame to the Top Deck Panel you will need the following hardware:
+
+Part|QTY
+|:---:|:---:|
+|[HFSB-2020-420](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420&PNSearch=HFSB5-2020-420&KWSearch=HFSB5-2020-420&searchFlow=results2type)|2
+|M5x10 BHCS|6|
+|M3x8 SHCS|10|
 
 #### A big thanks to all original creators for all their hard work to create all the Mods that were used in this DoomCube build. Always follow the links to their respective repos for the latest stls, and info on how to best make use of their mods.
