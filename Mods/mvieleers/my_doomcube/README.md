@@ -83,7 +83,7 @@ Door / Side / Back Panel Mounts
 |Straight Long|[This Mod](STL/Panels/Sides)|8
 |Corner Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
 |Center Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
-|Key for Corner and Center Panel Clips|[Annex Engineering Offical](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners/key/STL/key_asymmetric_3.STL)|32 (optional)
+|Key for Corner and Center Panel Clips|[Annex Engineering Offical](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners/key/STL/key_asymmetric_3.STL)|36 (optional)
 Top / Bottom Panel
 |Straight with Bracket|[This Mod](STL/Panels/Top_Bottom)|4
 |Straight without Bracket|[This Mod](STL/Panels/Top_Bottom)|4
