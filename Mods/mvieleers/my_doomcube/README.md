@@ -202,11 +202,13 @@ Belt Cover
 
 ### Specifics
 The Gantry is a combination of several official Mods. Take good care to select the correct versions from each Mod so they work together.
+**Due to using the MGN12 mod in combination with the Gantry Backing Plates Mod and the Y Endstop Relocation Mod, the Y-endstop will trigger to soon due to the added backer. Therefor I've included a modded upper part for the A-drive with the Y endstop mounting point 3mm recessed.**
 |Mod|Creator|
 |:---:|:---:|
 |[MGN12 X axis](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)|arkeet
 |[Pins Mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Pins_Mod)|hartk1213
 |[Y Endstop Relocation](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_Y_Endstop_Relocation)|hartk1213
+|[Upper part A-drive (pinned with Y-endstop 3mm recessed)](STL/Gantry/AB_Drive_Units)|mvieleers
 |[GE5C](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs)|hartk1213
 |[Gantry Backing Plates](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/whoppingpochard/extrusion_backers)|whoppingpochard
 |[lil a drive cable cover](https://github.com/mvieleers/DoomCube-2/tree/main/Mods/crag-h4k/lil-a-drive-cable-cover)|crag-h4k
