@@ -2,8 +2,7 @@
 # Doom-Cube
 A mod for Voron 2.4; designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
 
-[Make sure to join our discord!](https://discord.gg/EAANfEk25f)
-
+[![](https://img.shields.io/discord/825469421346226226?color=darkred&label=DOOMCUBE&logo=discord&logoColor=fafafa)](https://discord.gg/doomcube)
 
 #### Key features:
 
