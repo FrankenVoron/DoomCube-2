@@ -32,6 +32,7 @@ Click [HERE](CAD) for STEP files
 - Instead of single 2020's for the bottom frame, I'm using double 2020's in the bottom frame in order for the panels to rest on top of the additional 2020 extrusion.
 - The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
 - I'm using slot covers to seal any gaps between the frame and the side panels. The slot covers are also intended to keep the panel in place. In order for this to work the slot cover need to protrude above the extrusion. Misumi HSCKS5 slot covers will not work for this goal as they sit completely flush with the extrusion. I've found that Aliexpress slot covers work well for this.
+- The CAD shows slot covers on all 4 sides of the frame where the panel is placed. If you actually use slot covers on all 4 sides, you will have the best seal of any gaps, but removing the panel later will require a lot of force. I've found that using slot covers on 3 sides works best. It still makes a good seal and you'll be able to fairly easy push the entire panel out when you require them of for maintenance or printing pla.
 
 ### Hardware
 Section|Part| Part #|QTY|Remarks
