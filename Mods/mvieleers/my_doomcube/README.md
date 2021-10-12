@@ -31,6 +31,8 @@ Click [HERE](CAD) for STEP files
 - Instead of 2020's for the top frame, I'm using 4020's.
 - Instead of single 2020's for the bottom frame, I'm using double 2020's in the bottom frame in order for the panels to rest on top of the additional 2020 extrusion.
 - The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
+- I'm using slot covers to seal any gaps between the frame and the side panels. The slot covers are also intended to keep the panel in place. In order for this to work the slot cover need to protrude above the extrusion. Misumi HSCKS5 slot covers will not work for this goal as they sit completely flush with the extrusion. I've found that Aliexpress slot covers work well for this.
+- The CAD shows slot covers on all 4 sides of the frame where the panel is placed. If you actually use slot covers on all 4 sides, you will have the best seal of any gaps, but removing the panel later will require a lot of force. I've found that using slot covers on 3 sides works best. It still makes a good seal and you'll be able to fairly easy push the entire panel out when you require them of for maintenance or printing pla.
 
 ### Hardware
 Section|Part| Part #|QTY|Remarks
@@ -38,13 +40,13 @@ Section|Part| Part #|QTY|Remarks
 Bottom Frame
 ||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|8|Can be reused if you're converting from a standard V2 300
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|4|Used to keep the two extrusions from rotating
-||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
+||Slot Covers|[DCR6-2020](https://nl.aliexpress.com/item/1005001664501395.html?spm=a2g0s.9042311.0.0.27424c4dtVOEhL)|1m|Comes in 10m so needs to be cut to length.
 Vertical Frame
 ||Square Verticals|[HFSB5-4040-500-LWP-RWP-TPW](https://uk.misumi-ec.com/vona2/detail/110302684530/?HissuCode=HFSB5-4040-500-LWP-RWP-TPW&PNSearch=HFSB5-4040-500-LWP-RWP-TPW&KWSearch=HFSB5-4040-500-LWP-RWP-TPW&searchFlow=results2type)|4
-||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|2|Comes in 2m so needs to be cut to length
+||Slot Covers|[DCR6-2020](https://nl.aliexpress.com/item/1005001664501395.html?spm=a2g0s.9042311.0.0.27424c4dtVOEhL)|2m|Comes in 10m so needs to be cut to length.
 Top Frame
 ||Top Horizontals|[HFSB5-2040-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302684350/?HissuCode=HFSB5-2040-420-TPW&PNSearch=HFSB5-2040-420-TPW&KWSearch=HFSB5-2040-420-TPW&searchFlow=results2type)|4
-||Slot Covers|[HSCKS5-B](https://uk.misumi-ec.com/vona2/detail/110302695120/?HissuCode=HSCL5-B&searchFlow=results2similartn)|1|Comes in 2m so needs to be cut to length
+||Slot Covers|[DCR6-2020](https://nl.aliexpress.com/item/1005001664501395.html?spm=a2g0s.9042311.0.0.27424c4dtVOEhL)|1m|Comes in 10m so needs to be cut to length.
 Bed Frame
 |||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|Can be reused if you're converting from a standard V2 300
 |||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
@@ -55,9 +57,10 @@ Bed Frame
 ![Panels](Images/panels.png)
 
 ### Specifics
-- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. KayosMaker has created an awesome [frame generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) to create those panelmounts. His system is a "tip-inn" system so it can be removed without disassembling the frame. In my case, I didn't need it to be removable, so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
+- The principle of the original DoomCube door is applied to the side and back panels, where the panels slide into panelmounts that bolt into the extrusion. This method is copied to all the sides. For my 300 build I went with 2 pieces per extrusion though. Please check whether you can fit these on your build plate if printing this on a small printer.
 - The slot covers (see frame section) should create a good seal and a tight fit, which should make the panels to securely stay in place. If this is not the case, I have modded the excellent [Annex Engineers Panel Clips for 2020 extrusions](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners). The Mod involves flattening the clips so it sits flush with the side panel frame. Please take note of the [Annex Engineering EULA](STL/Panels/Panel%20Clips/LICENSE.md)
-- Top and bottom panels use [frame generator](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS) by KayosMaker. His system is a "tip-inn" system so it can be removed without disassembling the frame. The "tip-inn" system is still a work in progress and still requires a solution to keep it in place. I didn't need it to be removable (as opposed to the side panels), so I've used the brackets that slide into the extrusion on two sides and removed the tip-inn parts.
+It looks like the misumi slot covers might sit too flat in the extrusion. Aliexpress slot covers stick out more and might make a better fit. Will provide final results when I finish the build.
+- Top and bottom panels use the "standard" Doomcube panelmounts, but the corners have been modded to include the part that goes in between the panels (from [Kayosmaker's mod](https://github.com/FrankenVoron/DoomCube-2/tree/main/Mods/KayosMaker/Toolless%20Panel%20Mod/Panel%20Frame%20Generator%20WORK%20IN%20PROGRESS). This should add to the stability.
 - Top and bottom (deck) panels have cutouts for wire passthroughs and the top deck panel has mounting holes for mounting the ERCF on top of the top deck panel.
 
 ### Dimensions
@@ -77,16 +80,13 @@ Bottom Deck|panel_bottom_deck.pdf|panel_bottom_deck.dxf|1
 Section|Part|STL Origin|QTY
 |:---:|:---:|:---:|:---:|
 Door / Side / Back Panel Mounts
-|Corner|[This Mod](STL/Panels/Sides)|8
-|Corner Mirrored|[This Mod](STL/Panels/Sides)|8
-|Straight Short|[This Mod](STL/Panels/Sides)|8
-|Straight Long|[This Mod](STL/Panels/Sides)|8
+|Horizontal piece|[This Mod](STL/Panels/Sides)|16
+|Vertical piece|[This Mod](STL/Panels/Sides)|16
 |Corner Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
 |Center Panel Clips|[This Mod](STL/Panels/Panel%20Clips)|16 (optional)
 |Key for Corner and Center Panel Clips|[Annex Engineering Offical](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Annex_Panel_2020_Clips_and_Hinges/panel_clips_and_corners/key/STL/key_asymmetric_3.STL)|36 (optional)
 Top / Bottom Panel
-|Straight with Bracket|[This Mod](STL/Panels/Top_Bottom)|4
-|Straight without Bracket|[This Mod](STL/Panels/Top_Bottom)|4
+|Straight center piece|[This Mod](STL/Panels/Top_Bottom)|8
 |Corner piece 1|[This Mod](STL/Panels/Top_Bottom)|4
 |Corner piece 2|[This Mod](STL/Panels/Top_Bottom)|4
 |Corner piece 1 mirrored|[This Mod](STL/Panels/Top_Bottom)|4
