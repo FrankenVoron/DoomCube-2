@@ -110,6 +110,7 @@ Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCod
 - Panelmounts are 2 pieces per side, instead of 3. This might not be printable on smaller bed sizes.
 - Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
 - Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
+- Bottom skirts and flanges have other hole positions than original skirts and flanges, due to the altered frame.
 
 ### Dimensions
 Drawings are [here](Drawings), DXFs are [here](DXF)
@@ -132,18 +133,21 @@ Square Corners Foot
 ||Bottom Corner Cap (panel mount)|[Corner Panel Mounts](../corner_panel_mounts/STL)|4
 ||Top Corner Cap (panel mount)|[This Mod](STL/Skirts/Corners/Top)|4
 Skirts
-||Bottom Center Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|3
-||Bottom Left Side Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|4
-||Bottom Right Side Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|4
-||Bottom Power Inlet Skirt|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts)|1
+||Bottom Center Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|3
+||Bottom Left Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
+||Bottom Right Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
+||Bottom Power Inlet Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|1
 ||Bottom Power Inlet Skirt Inlay|[FN-286 Plug Panel](../fn-286_plug_panel)|1
 ||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
 ||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
 Flanges
-||Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
-||Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
+||Top Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
+||Top Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
+||Botom Center Flange|[This Mod](STL/Skirts/Flanges/Bottom)
+||Bottom Left Flange|[This Mod](STL/Skirts/Flanges/Bottom)
+||Bottom Right Flange|[This Mod](STL/Skirts/Flanges/Bottom)
 Skirt Accents
 ||Center Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|7
 ||Left Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
