@@ -11,4 +11,7 @@ The bottom corner cap also has a cutout to hold an m5 hex nut, so the [Misumi Ru
 Part|QTY
 :---:|:---:
 6x3mm round magnet (standard Voron)| 32
+M5x16 BHCS| 4
+M5 Locknut| 4
 [Misumi Rubber Feet C-30-RK-3215](https://uk.misumi-ec.com/vona2/detail/110500157910/?HissuCode=C-30-RK-3215)|4
+
