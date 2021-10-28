@@ -38,7 +38,8 @@ Click [HERE](CAD) for STEP files
 Section|Part| Part #|QTY|Remarks
 |:---:|:----:|:----:|:---:|:---:|
 Bottom Frame
-||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|8|Can be reused if you're converting from a standard V2 300
+||Bottom Horizontals|[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|10|Can be reused if you're converting from a standard V2 300
+||Bottom Horizontals|[HFSB5-2020-280-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-280-TPW&PNSearch=HFSB5-2020-280-TPW&KWSearch=HFSB5-2020-280-TPW&searchFlow=results2type)|2|Can be reused if you're converting from a standard V2 300
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|4|Used to keep the two extrusions from rotating
 ||Slot Covers|[DCR6-2020](https://nl.aliexpress.com/item/1005001664501395.html?spm=a2g0s.9042311.0.0.27424c4dtVOEhL)|1m|Comes in 10m so needs to be cut to length.
 Vertical Frame
@@ -110,7 +111,6 @@ Hinge|[HHPBSN5-SET](https://uk.misumi-ec.com/vona2/detail/110302362010/?HissuCod
 - Panelmounts are 2 pieces per side, instead of 3. This might not be printable on smaller bed sizes.
 - Top and Bottom have altered top caps for the corners. These caps allow the deck panels to be attached to the corners with magnets.
 - Top corners and skirts have been increased in size in order to accomodate my Waveshare 4,3" LCD. For this a center skirt was modded to hold the LCD.
-- Bottom skirts and flanges have other hole positions than original skirts and flanges, due to the altered frame.
 
 ### Dimensions
 Drawings are [here](Drawings), DXFs are [here](DXF)
@@ -136,18 +136,15 @@ Skirts
 ||Bottom Center Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|3
 ||Bottom Left Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
 ||Bottom Right Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
-||Bottom Power Inlet Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|1
+||Bottom Power Inlet Skirt|[FN-286 Plug Panel](../fn-286_plug_panel)|1
 ||Bottom Power Inlet Skirt Inlay|[FN-286 Plug Panel](../fn-286_plug_panel)|1
 ||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
 ||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
 Flanges
-||Top Center Flange|[Original DoomCube Door Center Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|8
-||Top Side Flange|[Original DoomCube Door Side Flange](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Door/Flanges)|16
-||Botom Center Flange|[This Mod](STL/Skirts/Flanges/Bottom)
-||Bottom Left Flange|[This Mod](STL/Skirts/Flanges/Bottom)
-||Bottom Right Flange|[This Mod](STL/Skirts/Flanges/Bottom)
+||Center Flange|[This Mod](STL/Skirts/Flanges/)|8
+||Side Flange|[This Mod](STL/Skirts/Flanges/)|16
 Skirt Accents
 ||Center Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts)|7
 ||Left Side Skirt Accent|[Original](https://github.com/FrankenVoron/DoomCube-2/tree/main/STLs/Skirts/Hexagon%20Skirts/300)|8
