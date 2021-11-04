@@ -286,25 +286,29 @@ USB Camera|[Wansview 1080p Webcam](https://www.wansview.com/cn/proinfo.aspx?proi
 ### Printed Parts
 Part|STL Origin|QTY
 |:---:|:---:|:---:|
-ERCF Wire Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-PTFE Wire Grommet(4 parts)|[This Mod](STL/Electronics/Grommets)
-PTFE and Umbilical Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-Z-Chain Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-Heated Bed Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+UHP-500-55 DIN Rail Mounts (2 parts)|[This Mod](STL/Electronics/DIN%20Mounts)|1
+LRS-200-24 DIN Rail Mounts (2 parts)|[Voron Standard](https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Electronics_Compartment/DIN_Brackets)|1
+ERCF Wire Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+PTFE Wire Grommet(4 parts)|[This Mod](STL/Electronics/Grommets)|1
+PTFE and Umbilical Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+Z-Chain Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+Heated Bed Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
 
 ### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Controllers
 ||[Raspberry Pi 4b](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)|1|
-||[BTT Octopus v1.1 with TMC 2209](https://nl.aliexpress.com/item/1005002613363656.html?src=google&src=google&memo1=freelisting&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=12556492032&albag=121061693882&trgt=539263010115&crea=nl1005002613363656&netw=u&device=c&albpg=539263010115&albpd=nl1005002613363656&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8LQxuAfiyGBFZ4bwXYRCNFwvKxnK1mLZ_Ikdjdyy8XdzH4IvoiVgwaApkEEALw_wcB&gclsrc=aw.ds&aff_fcid=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&terminal_id=15a09c656a8543e3bfa63f7b2fc963c2)|1|
+||[BTT Octopus Pro v1.0 with TMC5160PRO](https://www.aliexpress.com/item/1005003349571423.html?spm=a2g0s.9042311.0.0.2f5a4c4dtMxMBK)|1|
 ||[Tircown's ERCF Easy Board with TMC 2209](https://github.com/Tircown/ERCF-easy-brd)|1|
 4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
 Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffner-emc-inc/FN286-1-06/817-1928-ND/1997125?utm_adgroup=Power%20Entry%20Connectors%20-%20Inlets%2C%20Outlets%2C%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects&utm_term=&productid=1997125&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYTt-iqS_a8Cr28pWmyBAhIXpcLJp1rsu5ffDzC7lFXPegO6_Ck0uYBoCgaoQAvD_BwE)|1
 PSU|[Meanwell LRS-200-24](https://www.digikey.nl/product-detail/en/mean-well-usa-inc/LRS-200-24/1866-3332-ND/7705026?utm_adgroup=AC%20DC%20Converters&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Power%20Supplies%20-%20External%2FInternal%20%28Off-Board%29&utm_term=&productid=7705026&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8A3oB3rzFBTurlmHVQ8Iba5ArECfS3tNMoFBuKY0rHg7v0oA5mFFcaAulAEALw_wcB)|1|
+PSU HV|[Meanwell UHP-550(r)-55](https://www.arrow.com/en/products/uhp-500-55/mean-well-enterprises)|1|
 SSR|[Omron G3NA](https://industrial.omron.nl/nl/products/G3NA-210B-UTU-5-24VDC)|1|
 DIN Mount for SSR|[Omron G3NA DIN Rail Mount](https://nl.rs-online.com/web/p/relay-sockets/8278478/?cm_mmc=NL-PLA-DS3A-_-google-_-PLA_NL_NL_Relays_Whoop-_-(NL:Whoop!)+Relay+Sockets-_-8278478&matchtype=&pla-342943934088&gclid=CjwKCAiAhbeCBhBcEiwAkv2cY1hHD5bc5jkEDy0bZmEPV22O3sgnhxs_zoto_doTzER4sUxc0jh88xoCXFgQAvD_BwE&gclsrc=aw.ds)|1|
 Terminal Blocks|[Phoenix Contact UT2,5](https://www.phoenixcontact.com/online/portal/nl/pxc/product_list_pages/!ut/p/z1/xVTfT9swEP5beMij43PjpOYxVBOIAQN1gyYvke04rVnipI7bAH_9nG0vlSDVhKr5wb6Tvvvul-9wjlc4N3yv19zp1vDa61meFGz2dXF1ScktkPsYHi6WC3bxbf7IUoIfcY7zTuoSZ1VZKjaLACWMRIhKViFeAkEllTSmVcRFwke0NK5zG5yZ2tQBDEoE0HBtAuhsW-6k6wOode-Kjq-VlyulSuQ2tt2tN4VTttE-sELUrfzZFx0iMfI-YObvAAQDxeMKEJlVAlGhCDrnEUOkOgfJBY8oMPw0mdNljPPplP_YwwcnhWP2mbeffwh4iPHTXqsB_zCtbXwLlv9Y4Ss45mH-SQ_T9Ak9Kf3tielPW5wvyWnpPxv99bHP6xeCft5u89TPcWucenF49f8GOZ8Mdxzl34CJWV2auri7Ke5Xi7ubYx87_lvOFxl23PImHBOzoVXbneqdKkPbDqFsd8bhjMAhtG-tC0ttlRw3K87S5eI9rl7VHuGpRhVn9B2SSqvat3OUD6uGu6Zh0atG2fV-GL5XzUKww-c1gmfKxZsSb2l6dvYLLIAPAw!!/p0/IZ7_82KCHG41M01P50QBSC8BO7V865=CZ6_82KCHG41M01P50QBSC8BO7V8A1=MEpxc.param.sort.direction!ASC=pxc.param.pager.requested.row.count!10=pxc.param.pager.selected.page!1=pxc.param.sort.field!sort_p-15-01-02-01==/#Z7_82KCHG41M01P50QBSC8BO7V865)|As much as you need|Several accessoires available
+Wire Duct|[Phoenix Contact Wire Duct 2m](https://www.digikey.nl/product-detail/nl/phoenix-contact/3240187/277-5422-ND/2525008)|1|
 
 ## Enraged Rabbit Carrot Feeder
 
