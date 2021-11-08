@@ -237,6 +237,7 @@ The CAD contains the Galileo Clockwork body. In reality I am using the non-relea
  
 ### Hardware
 I'm using a Phaetus Dragon High Flow hotend with a bondtech CHT® Coated Brass 0.4 Nozzle.
+Optionally you can select a Mosquito standard flow hotend.
 
 ## Other
 
