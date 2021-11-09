@@ -161,7 +161,7 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 ![Heated Bed](Images/heated_bed.png)
 
 ### Specifics
-- Mandela Rose Works ultra flat bed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is in development with Mandela Rose Works and uses 3 mounting points.
+- Mandala Rose Works ultra flat magbed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is has been released by Mandala Rose Works.
 - When not using a kinematic mounting solution, you will only need 3 of the original knurled knuts
 
 ### Hardware
@@ -169,10 +169,11 @@ Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Mic6 Bed|[Mandala Rose Works Ultra Flat Bed](https://www.mandalaroseworks.com/shop/voron/voron-300-standard-bed)|1|
 Heater|[Keenovo 240x240 600W 220V](https://keenovo.store/collections/standard-keenovo-silicone-heaters/products/keenovo-square-silicone-heater-3d-printer-build-plate-heatbed-heating-pad?variant=8324020961335)|1
-Magnetic Sheet|[Graviflex 310x310](https://fermio.xyz/en/mechanical/magnetic-sheets/121/magnetic-sheet-310x310x1mm)|1|
+Magnetic Sheet|[Graviflex 310x310](https://fermio.xyz/en/mechanical/magnetic-sheets/121/magnetic-sheet-310x310x1mm)|1|Only when not using a magbed
 Spring Steel Plate|[300x300 Spring Steel Plate](https://www.vonwange.com/product/300x300mm-1-4310-spring-steel-plate/)|1|
 PEI Sheet|[Buildtak 12x12" PEI](https://www.buildtak.com/product/buildtak-3d-printing-surface-pei/)|1|
-Knurled Nuts|Voron Standard Knurled Nuts|3|
+Knurled Nuts|Voron Standard Knurled Nuts|3|Only when not using the kinematic bed mounts
+Kinematic Bed Mounts|[Matched Height Kinematic Set](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit)|1|When using the kinematic bed mounts you will need to use a 35mm sexbolt for your Z Endstop to accommodate for the height difference.
 
 ## Z-Assembly
 
@@ -245,9 +246,9 @@ Optionally you can select a Mosquito standard flow hotend.
 
 ### Specifics
 This section contains several additional Mods to complete the setup within the chamber
-|Mod|Creator|
-|:---:|:---:|
-|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213
+|Mod|Creator|Remarks
+|:---:|:---:|:---:|
+|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213|Please note that when you're using the Mandala Rose Works Kinematic Mounting set you will need a 15mm taller sexbolt (so 35mm in total).
 |[Klicky-Probe](https://github.com/jlas1/Klicky-Probe)|jlas1 a.k.a. JosAr
 |[Purge brush bucket](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Purge_Brush_Bucket)|Annex Engineering
 |[Nevermore Micro V5 Duo](https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro)|0ndsk4
