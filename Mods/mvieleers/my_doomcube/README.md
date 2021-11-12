@@ -30,7 +30,7 @@ Click [HERE](CAD) for STEP files
 - I'm using 20mm taller vertical 4040s, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels.
 - Instead of 2020's for the top frame, I'm using 4020's.
 - Instead of single 2020's for the bottom frame, I'm using double 2020's in the bottom frame in order for the panels to rest on top of the additional 2020 extrusion.
-- The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
+- The bed frame has a cross bar in order to mount my magbed with 3 mounting points instead of 4. I'm using the Mandala Rose Works Kinematic Mounting set. Because the mounting set adds some z height to the bed, there's a 8cm extrusion in the back on both bed extrusions to be able to raise the z-endstop and purge bucket.
 - I'm using slot covers to seal any gaps between the frame and the side panels. The slot covers are also intended to keep the panel in place. In order for this to work the slot cover need to protrude above the extrusion. Misumi HSCKS5 slot covers will not work for this goal as they sit completely flush with the extrusion. I've found that Aliexpress slot covers work well for this.
 - The CAD shows slot covers on all 4 sides of the frame where the panel is placed. If you actually use slot covers on all 4 sides, you will have the best seal of any gaps, but removing the panel later will require a lot of force. I've found that using slot covers on 3 sides works best. It still makes a good seal and you'll be able to fairly easy push the entire panel out when you require them of for maintenance or printing pla.
 
@@ -52,6 +52,7 @@ Bed Frame
 |||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|Can be reused if you're converting from a standard V2 300
 |||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar. 4 can be reused if you're converting from a standard V2
+|||[HFSB5-2020-80](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-80&PNSearch=HFSB5-2020-80&KWSearch=HFSB5-2020-80&searchFlow=results2type)|2|Please note that you'll have to drill 2 4mm holes in each extrusion to be able to bolt these extrusions to the normal bed extrusions using 2x M5x6 BHCS. I have drilled these holes roughly 2cm from the end, but you can basically drill them anywhere.
 
 ## Panels
 
@@ -161,7 +162,7 @@ Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffne
 ![Heated Bed](Images/heated_bed.png)
 
 ### Specifics
-- Mandela Rose Works ultra flat bed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is in development with Mandela Rose Works and uses 3 mounting points.
+- Mandala Rose Works ultra flat magbed is used. It has mounting holes for both the V1.8 and the V2.4. Therefor I'm able to use a triangle 3-point mounting method, by inserting a cross bar between the two bed extrusions. This is also done to accomodate for a kinematic mounting system that is has been released by Mandala Rose Works.
 - When not using a kinematic mounting solution, you will only need 3 of the original knurled knuts
 
 ### Hardware
@@ -169,10 +170,11 @@ Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Mic6 Bed|[Mandala Rose Works Ultra Flat Bed](https://www.mandalaroseworks.com/shop/voron/voron-300-standard-bed)|1|
 Heater|[Keenovo 240x240 600W 220V](https://keenovo.store/collections/standard-keenovo-silicone-heaters/products/keenovo-square-silicone-heater-3d-printer-build-plate-heatbed-heating-pad?variant=8324020961335)|1
-Magnetic Sheet|[Graviflex 310x310](https://fermio.xyz/en/mechanical/magnetic-sheets/121/magnetic-sheet-310x310x1mm)|1|
+Magnetic Sheet|[Graviflex 310x310](https://fermio.xyz/en/mechanical/magnetic-sheets/121/magnetic-sheet-310x310x1mm)|1|Only when not using a magbed
 Spring Steel Plate|[300x300 Spring Steel Plate](https://www.vonwange.com/product/300x300mm-1-4310-spring-steel-plate/)|1|
 PEI Sheet|[Buildtak 12x12" PEI](https://www.buildtak.com/product/buildtak-3d-printing-surface-pei/)|1|
-Knurled Nuts|Voron Standard Knurled Nuts|3|
+Knurled Nuts|Voron Standard Knurled Nuts|3|Only when not using the kinematic bed mounts
+Kinematic Bed Mounts|[Matched Height Kinematic Set](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit)|1|When using the kinematic bed mounts you will need to use a 35mm sexbolt for your Z Endstop to accommodate for the height difference.
 
 ## Z-Assembly
 
@@ -236,7 +238,8 @@ Like the Gantry, the X-Carriage is a combination of several official Mods. Again
 The CAD contains the Galileo Clockwork body. In reality I am using the non-released version of the ERCF 1.1 filament sensor which replaces the Galileo Clockwork body. This STL circulates in the Enraged Rabbit Channel on Discord, but as it is not officially released, I will not provide it in this repository yet. It will be released together with the new ERCF 1.1 version. Please keep an eye out on the official and amazing [Enraged Rabbit Project](https://github.com/EtteGit/EnragedRabbitProject) for more information.
  
 ### Hardware
-I'm using a Mosquito Standard Flow hotend.
+I'm using a Phaetus Dragon High Flow hotend with a bondtech CHT® Coated Brass 0.4 Nozzle.
+Optionally you can select a Mosquito standard flow hotend.
 
 ## Other
 
@@ -244,9 +247,9 @@ I'm using a Mosquito Standard Flow hotend.
 
 ### Specifics
 This section contains several additional Mods to complete the setup within the chamber
-|Mod|Creator|
-|:---:|:---:|
-|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213
+|Mod|Creator|Remarks
+|:---:|:---:|:---:|
+|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213|
 |[Klicky-Probe](https://github.com/jlas1/Klicky-Probe)|jlas1 a.k.a. JosAr
 |[Purge brush bucket](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Purge_Brush_Bucket)|Annex Engineering
 |[Nevermore Micro V5 Duo](https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro)|0ndsk4
@@ -286,25 +289,29 @@ USB Camera|[Wansview 1080p Webcam](https://www.wansview.com/cn/proinfo.aspx?proi
 ### Printed Parts
 Part|STL Origin|QTY
 |:---:|:---:|:---:|
-ERCF Wire Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-PTFE Wire Grommet(4 parts)|[This Mod](STL/Electronics/Grommets)
-PTFE and Umbilical Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-Z-Chain Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
-Heated Bed Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)
+UHP-500-55 DIN Rail Mounts (2 parts)|[This Mod](STL/Electronics/DIN%20Mounts)|1
+LRS-200-24 DIN Rail Mounts (2 parts)|[Voron Standard](https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Electronics_Compartment/DIN_Brackets)|1
+ERCF Wire Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+PTFE Wire Grommet(4 parts)|[This Mod](STL/Electronics/Grommets)|1
+PTFE and Umbilical Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+Z-Chain Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
+Heated Bed Grommet (4 parts)|[This Mod](STL/Electronics/Grommets)|1
 
 ### Hardware
 Hardware|Part|QTY|Remarks
 |:---:|:---:|:---:|:---:
 Controllers
 ||[Raspberry Pi 4b](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)|1|
-||[BTT Octopus v1.1 with TMC 2209](https://nl.aliexpress.com/item/1005002613363656.html?src=google&src=google&memo1=freelisting&albch=shopping&acnt=494-037-6276&slnk=&plac=&mtctp=&albbt=Google_7_shopping&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&albcp=12556492032&albag=121061693882&trgt=539263010115&crea=nl1005002613363656&netw=u&device=c&albpg=539263010115&albpd=nl1005002613363656&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8LQxuAfiyGBFZ4bwXYRCNFwvKxnK1mLZ_Ikdjdyy8XdzH4IvoiVgwaApkEEALw_wcB&gclsrc=aw.ds&aff_fcid=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=e4fe000105fb4420a747a0448c6bc5c5-1631806215370-09135-UneMJZVf&terminal_id=15a09c656a8543e3bfa63f7b2fc963c2)|1|
+||[BTT Octopus Pro v1.0 with TMC5160PRO](https://www.aliexpress.com/item/1005003349571423.html?spm=a2g0s.9042311.0.0.2f5a4c4dtMxMBK)|1|
 ||[Tircown's ERCF Easy Board with TMC 2209](https://github.com/Tircown/ERCF-easy-brd)|1|
 4.3" LCD|[Waveshare 4.3" LCD DSI](https://www.waveshare.com/4.3inch-dsi-lcd.htm)|1|The Raspberry Pi can be screwed to the LCD screen
 Power Inlet|[Schaffner FN-286](https://www.digikey.nl/product-detail/en/schaffner-emc-inc/FN286-1-06/817-1928-ND/1997125?utm_adgroup=Power%20Entry%20Connectors%20-%20Inlets%2C%20Outlets%2C%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects&utm_term=&productid=1997125&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYTt-iqS_a8Cr28pWmyBAhIXpcLJp1rsu5ffDzC7lFXPegO6_Ck0uYBoCgaoQAvD_BwE)|1
 PSU|[Meanwell LRS-200-24](https://www.digikey.nl/product-detail/en/mean-well-usa-inc/LRS-200-24/1866-3332-ND/7705026?utm_adgroup=AC%20DC%20Converters&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Power%20Supplies%20-%20External%2FInternal%20%28Off-Board%29&utm_term=&productid=7705026&gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI8A3oB3rzFBTurlmHVQ8Iba5ArECfS3tNMoFBuKY0rHg7v0oA5mFFcaAulAEALw_wcB)|1|
+PSU HV|[Meanwell UHP-550(r)-55](https://www.arrow.com/en/products/uhp-500-55/mean-well-enterprises)|1|
 SSR|[Omron G3NA](https://industrial.omron.nl/nl/products/G3NA-210B-UTU-5-24VDC)|1|
 DIN Mount for SSR|[Omron G3NA DIN Rail Mount](https://nl.rs-online.com/web/p/relay-sockets/8278478/?cm_mmc=NL-PLA-DS3A-_-google-_-PLA_NL_NL_Relays_Whoop-_-(NL:Whoop!)+Relay+Sockets-_-8278478&matchtype=&pla-342943934088&gclid=CjwKCAiAhbeCBhBcEiwAkv2cY1hHD5bc5jkEDy0bZmEPV22O3sgnhxs_zoto_doTzER4sUxc0jh88xoCXFgQAvD_BwE&gclsrc=aw.ds)|1|
 Terminal Blocks|[Phoenix Contact UT2,5](https://www.phoenixcontact.com/online/portal/nl/pxc/product_list_pages/!ut/p/z1/xVTfT9swEP5beMij43PjpOYxVBOIAQN1gyYvke04rVnipI7bAH_9nG0vlSDVhKr5wb6Tvvvul-9wjlc4N3yv19zp1vDa61meFGz2dXF1ScktkPsYHi6WC3bxbf7IUoIfcY7zTuoSZ1VZKjaLACWMRIhKViFeAkEllTSmVcRFwke0NK5zG5yZ2tQBDEoE0HBtAuhsW-6k6wOode-Kjq-VlyulSuQ2tt2tN4VTttE-sELUrfzZFx0iMfI-YObvAAQDxeMKEJlVAlGhCDrnEUOkOgfJBY8oMPw0mdNljPPplP_YwwcnhWP2mbeffwh4iPHTXqsB_zCtbXwLlv9Y4Ss45mH-SQ_T9Ak9Kf3tielPW5wvyWnpPxv99bHP6xeCft5u89TPcWucenF49f8GOZ8Mdxzl34CJWV2auri7Ke5Xi7ubYx87_lvOFxl23PImHBOzoVXbneqdKkPbDqFsd8bhjMAhtG-tC0ttlRw3K87S5eI9rl7VHuGpRhVn9B2SSqvat3OUD6uGu6Zh0atG2fV-GL5XzUKww-c1gmfKxZsSb2l6dvYLLIAPAw!!/p0/IZ7_82KCHG41M01P50QBSC8BO7V865=CZ6_82KCHG41M01P50QBSC8BO7V8A1=MEpxc.param.sort.direction!ASC=pxc.param.pager.requested.row.count!10=pxc.param.pager.selected.page!1=pxc.param.sort.field!sort_p-15-01-02-01==/#Z7_82KCHG41M01P50QBSC8BO7V865)|As much as you need|Several accessoires available
+Wire Duct|[Phoenix Contact Wire Duct 2m](https://www.digikey.nl/product-detail/nl/phoenix-contact/3240187/277-5422-ND/2525008)|1|
 
 ## Enraged Rabbit Carrot Feeder
 
