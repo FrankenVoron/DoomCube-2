@@ -30,7 +30,7 @@ Click [HERE](CAD) for STEP files
 - I'm using 20mm taller vertical 4040s, so the door, side and back panels all rest within an extrusion frame. This eliminates the need for the flanges to support the panels.
 - Instead of 2020's for the top frame, I'm using 4020's.
 - Instead of single 2020's for the bottom frame, I'm using double 2020's in the bottom frame in order for the panels to rest on top of the additional 2020 extrusion.
-- The bed frame has a cross bar in order to mount my bed with 3 mounting points instead of 4. It is a preparation to add a kinematic bed mounting solution at a later time.
+- The bed frame has a cross bar in order to mount my magbed with 3 mounting points instead of 4. I'm using the Mandala Rose Works Kinematic Mounting set. Because the mounting set adds some z height to the bed, there's a 8cm extrusion in the back on both bed extrusions to be able to raise the z-endstop and purge bucket.
 - I'm using slot covers to seal any gaps between the frame and the side panels. The slot covers are also intended to keep the panel in place. In order for this to work the slot cover need to protrude above the extrusion. Misumi HSCKS5 slot covers will not work for this goal as they sit completely flush with the extrusion. I've found that Aliexpress slot covers work well for this.
 - The CAD shows slot covers on all 4 sides of the frame where the panel is placed. If you actually use slot covers on all 4 sides, you will have the best seal of any gaps, but removing the panel later will require a lot of force. I've found that using slot covers on 3 sides works best. It still makes a good seal and you'll be able to fairly easy push the entire panel out when you require them of for maintenance or printing pla.
 
@@ -52,6 +52,7 @@ Bed Frame
 |||[HFSB5-2020-420-TPW](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-420-TPW&PNSearch=HFSB5-2020-420-TPW&KWSearch=HFSB5-2020-420-TPW&searchFlow=results2type)|2|Can be reused if you're converting from a standard V2 300
 |||[HFSB5-2020-130](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-130&PNSearch=HFSB5-2020-130&KWSearch=HFSB5-2020-130&searchFlow=results2type)|1
 ||OpenBuilds Angle Corner Connector|[20x20x20](https://openbuildspartstore.com/black-angle-corner-connector/)|6|4 for securing the bed frame to the bottom frame, 2 to secure the cross bar. 4 can be reused if you're converting from a standard V2
+|||[HFSB5-2020-80](https://uk.misumi-ec.com/vona2/detail/110302683830/?HissuCode=HFSB5-2020-80&PNSearch=HFSB5-2020-80&KWSearch=HFSB5-2020-80&searchFlow=results2type)|2|Please note that you'll have to drill 2 4mm holes in each extrusion to be able to bolt these extrusions to the normal bed extrusions using 2x M5x6 BHCS. I have drilled these holes roughly 2cm from the end, but you can basically drill them anywhere.
 
 ## Panels
 
@@ -248,7 +249,7 @@ Optionally you can select a Mosquito standard flow hotend.
 This section contains several additional Mods to complete the setup within the chamber
 |Mod|Creator|Remarks
 |:---:|:---:|:---:|
-|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213|Please note that when you're using the Mandala Rose Works Kinematic Mounting set you will need a 15mm taller sexbolt (so 35mm in total).
+|[SexBolt Z endstop](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop)|hartk1213|
 |[Klicky-Probe](https://github.com/jlas1/Klicky-Probe)|jlas1 a.k.a. JosAr
 |[Purge brush bucket](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Purge_Brush_Bucket)|Annex Engineering
 |[Nevermore Micro V5 Duo](https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro)|0ndsk4
