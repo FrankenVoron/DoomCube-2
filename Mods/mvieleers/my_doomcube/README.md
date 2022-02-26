@@ -123,6 +123,7 @@ Bottom Side Skirt Panel|skirt_bottom_side.pdf|skirt_bottom_side.dxf|8
 Top Center Skirt Panel|skirt_top_center.pdf|skirt_top_center.dxf|3
 Top Side Skirt Panel|skirt_top_side.pdf|skirt_top_side.dxf|8
 Top LCD Skirt Panel|skirt_top_lcd.pdf|skirt_top_lcd.dxf|2
+Top Fan Skirt Panel|skirt_top_fan.pdf|skirt_top_fan.dxf|1
 
 ### Printed Parts
 Section|Part|STL Origin|QTY
@@ -139,10 +140,11 @@ Skirts
 ||Bottom Right Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
 ||Bottom Power Inlet Skirt|[FN-286 Plug Panel](../fn-286_plug_panel)|1
 ||Bottom Power Inlet Skirt Inlay|[FN-286 Plug Panel](../fn-286_plug_panel)|1
-||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
+||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|2
 ||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
+||Top Fan Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
 Flanges
 ||Center Flange|[This Mod](STL/Skirts/Flanges/)|8
 ||Side Flange|[This Mod](STL/Skirts/Flanges/)|16
