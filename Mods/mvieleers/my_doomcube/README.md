@@ -13,6 +13,10 @@ Different types of Mods are used in this build:
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
+The DoomCube should be capable of reaching chamber temperatures of 70 degrees and higher. 
+I was able to reach 70 degrees inside the chamber, having the DoomCube sit in a garage where the ambiant temperature was 5 degrees Celcius.
+![Temps](Images/temps.png)
+
 ## CAD
 A full CAD for this build will is available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
 As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete assembly again.
