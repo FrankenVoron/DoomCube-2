@@ -15,7 +15,7 @@ Different types of Mods are used in this build:
 
 The DoomCube should be capable of reaching chamber temperatures of 70 degrees and higher. 
 I was able to reach 70 degrees inside the chamber, having the DoomCube sit in a garage where the ambiant temperature was 5 degrees Celcius.
-![Temps](Images/temps.png)
+![Temps](Images/temps.jpg)
 
 ## CAD
 A full CAD for this build will is available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
