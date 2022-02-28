@@ -13,6 +13,10 @@ Different types of Mods are used in this build:
 
 [Make sure to join the DoomCube discord!](https://discord.gg/EAANfEk25f)
 
+The DoomCube should be capable of reaching chamber temperatures of 70 degrees and higher. 
+I was able to reach 70 degrees inside the chamber, having the DoomCube sit in a garage where the ambiant temperature was 5 degrees Celcius.
+![Temps](Images/temps.jpg)
+
 ## CAD
 A full CAD for this build will is available. For the most part it will include fasteners as well, with the exception for flanges, skirts and panelmounts.
 As the CAD is 100 Mb+ it cannot be uploaded as one into Github. I've broken it up in different sections (one of these also needed to be zipped). When you import the STEP files into a new drawing, it will form one complete assembly again.
@@ -123,6 +127,7 @@ Bottom Side Skirt Panel|skirt_bottom_side.pdf|skirt_bottom_side.dxf|8
 Top Center Skirt Panel|skirt_top_center.pdf|skirt_top_center.dxf|3
 Top Side Skirt Panel|skirt_top_side.pdf|skirt_top_side.dxf|8
 Top LCD Skirt Panel|skirt_top_lcd.pdf|skirt_top_lcd.dxf|2
+Top Fan Skirt Panel|skirt_top_fan.pdf|skirt_top_fan.dxf|1
 
 ### Printed Parts
 Section|Part|STL Origin|QTY
@@ -139,10 +144,11 @@ Skirts
 ||Bottom Right Side Skirt|[This Mod](STL/Skirts/Skirts/Bottom)|4
 ||Bottom Power Inlet Skirt|[FN-286 Plug Panel](../fn-286_plug_panel)|1
 ||Bottom Power Inlet Skirt Inlay|[FN-286 Plug Panel](../fn-286_plug_panel)|1
-||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|3
+||Top Center Skirt|[This Mod](STL/Skirts/Skirts/Top)|2
 ||Top Left Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top Right Side Skirt|[This Mod](STL/Skirts/Skirts/Top)|4
 ||Top LCD Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
+||Top Fan Skirt|[This Mod](STL/Skirts/Skirts/Top)|1
 Flanges
 ||Center Flange|[This Mod](STL/Skirts/Flanges/)|8
 ||Side Flange|[This Mod](STL/Skirts/Flanges/)|16
