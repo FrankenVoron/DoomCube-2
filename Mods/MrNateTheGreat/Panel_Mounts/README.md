@@ -5,7 +5,7 @@ No loss of compatability with already cut panels
 V0 Printable as the top/bottom panels are necessary to build printer but side panel mounts can be printed later.
 Be multi-size compatible
 
-STLs already in print orientation.  There is a 3.25mm bridge for the upper clips but should not require supports.
+STLs already in print orientation.  There is a 3.25mm bridge for the upper clips but should not require supports. Line width needs to be 0.4mm or lower for bridging to slice properly.
 
 Uses 32 6x3mm magnets per panel set, so 64 magnets total.  
 
