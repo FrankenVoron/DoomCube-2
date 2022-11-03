@@ -30,4 +30,6 @@ like so:
 | KayosMaker | [tip-in swing-in panels](./KayosMaker/Toolless%20Panel%20Mod) | Work In Progress - nothing now, just a frame generator and some shaved corner pieces.  will post the rest soon |
 | MartinNYHC | [Slotted skirts with fan mount](./MartinNYHC/Slotted_Skirts_With_Fan_Mount) | 350m3 Doomcube slotted skirts with fan mount |
 | Maker Technologies | [Rounded Upper Corner Panel Mounts with Rubber Feet Support](./Maker_Technologies/Upper%20Rounded%20Corner%20Panel%20holder%20with%20Support%20for%20Rubber%20Feet) | Keeps the Top panel in place while adding a spot to insert rubber feet on the top corners.|
+| Maker Technologies | [Rounded Lower Corner Panel Mounts](./Maker_Technologies/Lower%20Rounded%20Corner%20Panel%20Holder) | Keeps the bottom panel in place.|
+| Maker Technologies | [BTT Pi TFT70 Mount](./Maker_Technologies/Pi%20Tft70%20Skirt%20Mount) | Keeps the bottom panel in place.|
 ---
