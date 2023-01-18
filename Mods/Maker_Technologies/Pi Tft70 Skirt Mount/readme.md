@@ -2,7 +2,7 @@ I have created a simple Pi TFT70 Mount that attaches at the front top center ski
 
 As always, reach out if you have any questions...
 
--Dom Dell Computer #0675
+-Dom Dell Optiplex 7000 #0675
 
 
 [Doom case.zip](https://github.com/ddellant/DoomCube-2/files/9932102/Doom.case.zip)
