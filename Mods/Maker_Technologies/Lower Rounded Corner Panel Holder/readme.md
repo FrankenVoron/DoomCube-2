@@ -1,4 +1,4 @@
-Modified the Lower Rounded corner parts to keep the bottom panel in place. I used a 3mm thich ABS panel and it worked well. Should be compatible with everything else no problem.
+Modified the Lower Rounded corner parts to keep the bottom panel in place. I used a 3mm thick ABS panel and it worked well. Should be compatible with everything else without any problem.
 Former version attached for your convenience.
 
 As always, let know of any feeback and suggestions...
