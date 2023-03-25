@@ -11,23 +11,23 @@ The design fills gaps between the extrusion bars and panels to avoid having smal
 I have personally installed to my DoomCube 250 and made 300 and 350 stl files but I couldn't test them directly.
 
 
-|![1](Images/01.PNG)|
+|![1](Images/01.png)|
 -
 
-|![2](Images/02.PNG)|
+|![2](Images/02.png)|
 -
 
-|![3](Images/03.PNG)|
+|![3](Images/03.png)|
 -
 
-|![4](Images/04.PNG)|
+|![4](Images/04.png)|
 -
 
-|![5](Images/05.PNG)|
+|![5](Images/05.png)|
 -
 
-|![6](Images/06.PNG)|
+|![6](Images/06.png)|
 -
 
-|![7](Images/07.PNG)|
+|![7](Images/07.png)|
 -
