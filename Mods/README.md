@@ -29,4 +29,5 @@ like so:
 | mvieleers | [Galileo ADXL345 Chain Replacement with Umbilical Mount](./mvieleers/adxl_mount_w_umbilical)| This mod is an alteration of crag-h4k's mod to replace the chain mount on a Galileo extruder with an adxl345 mount. The adxl345 mount has cutouts so an umbilical can be mounted to the adxl345 mount with tie-wraps.
 | KayosMaker | [tip-in swing-in panels](./KayosMaker/Toolless%20Panel%20Mod) | Work In Progress - nothing now, just a frame generator and some shaved corner pieces.  will post the rest soon |
 | MartinNYHC | [Slotted skirts with fan mount](./MartinNYHC/Slotted_Skirts_With_Fan_Mount) | 350m3 Doomcube slotted skirts with fan mount |
+| TheSquiffy | [Side panels with more clearance](./TheSquiffy/Side_panels_with_more_clearance) | Side panels with more clearance for Doomcube |
 ---
