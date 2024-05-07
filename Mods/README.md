@@ -29,4 +29,7 @@ like so:
 | mvieleers | [Galileo ADXL345 Chain Replacement with Umbilical Mount](./mvieleers/adxl_mount_w_umbilical)| This mod is an alteration of crag-h4k's mod to replace the chain mount on a Galileo extruder with an adxl345 mount. The adxl345 mount has cutouts so an umbilical can be mounted to the adxl345 mount with tie-wraps.
 | KayosMaker | [tip-in swing-in panels](./KayosMaker/Toolless%20Panel%20Mod) | Work In Progress - nothing now, just a frame generator and some shaved corner pieces.  will post the rest soon |
 | MartinNYHC | [Slotted skirts with fan mount](./MartinNYHC/Slotted_Skirts_With_Fan_Mount) | 350m3 Doomcube slotted skirts with fan mount |
+| Maker Technologies | [Rounded Upper Corner Panel Mounts with Rubber Feet Support](./Maker_Technologies/Upper%20Rounded%20Corner%20Panel%20holder%20with%20Support%20for%20Rubber%20Feet) | Keeps the Top panel in place while adding a spot to insert rubber feet on the top corners.|
+| Maker Technologies | [Rounded Lower Corner Panel Mounts](./Maker_Technologies/Lower%20Rounded%20Corner%20Panel%20Holder) | Keeps the bottom panel in place.|
+| Maker Technologies | [BTT Pi TFT70 Mount](./Maker_Technologies/Pi%20Tft70%20Skirt%20Mount) | A mount for a BTT Pi TFT70 to attach to a skirt.|
 ---
