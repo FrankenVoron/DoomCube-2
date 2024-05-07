@@ -1,4 +1,4 @@
-![DOOMCUBE](Images/DCLogo.png)
+![DOOMCUBE](Images/Logos/DOOMCUBE-Logo.png)
 # Doom-Cube
 A mod for Voron 2.4; designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
 
@@ -44,7 +44,7 @@ Part numbers are listed for both square 4040, and rounded 404020 vertical extrus
 #### Note:
 If you choose to use rounded corners, you will need to reuse your frame's existing 2020 vertical extrusions, or purchase a set of them for a scratch build.  The rounded verticals do not require machining, but the 2020 verticals that nest into them will need to have holes drilled to enable securing the rounded piece with blind joints, as shown here.
 
-<img src="Images/404020-1.jpg" alt="drawing" width="200"/>
+![Corner extrusion profile shown from above](Images/404020-1.jpg)
 
 ## Extrusions Based on Standard V2 Build Sizes
 
