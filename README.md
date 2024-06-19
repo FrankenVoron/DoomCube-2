@@ -1,4 +1,4 @@
-![DOOMCUBE](Images/Logos/DOOMCUBE-Logo.png)
+![DOOMCUBE](Images/Logos/DOOMCUBE-Logo_sm.jpg )
 # Doom-Cube
 A mod for Voron 2.4; designed by the Voron community, for the Voron community! Please note that it is a work in progress, design iterations are expected. The files are hosted on github so we have a log of the past history for the parts.
 
@@ -44,7 +44,7 @@ Part numbers are listed for both square 4040, and rounded 404020 vertical extrus
 #### Note:
 If you choose to use rounded corners, you will need to reuse your frame's existing 2020 vertical extrusions, or purchase a set of them for a scratch build.  The rounded verticals do not require machining, but the 2020 verticals that nest into them will need to have holes drilled to enable securing the rounded piece with blind joints, as shown here.
 
-![Corner extrusion profile shown from above](Images/404020-1.jpg)
+![Corner extrusion profile shown from above](Images/BuildPhotos/404020-2_sm.png)
 
 ## Extrusions Based on Standard V2 Build Sizes
 
@@ -150,16 +150,16 @@ DoomCubing is a great way to improve your v2.  It's also a perfect time to insta
 Mod|Repository
 |:---:|:---:|
 Ark's MGN12|https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12
-Hartk's GE5C Spherical Z Joint|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
-Hartk's Pinmod (X/Y Joints, ,A/B Drive Frames, A/B idlers, Z idlers)|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
+Hartk's GE5C Spherical Z Joint|[https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C](https://mods.vorondesign.com/details/eB5T2RNQcYI4o6cilhpXEg)
+Hartk's Pinmod (X/Y Joints, ,A/B Drive Frames, A/B idlers, Z idlers)|[https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod](https://mods.vorondesign.com/details/C8XJJ0fBGfBFKQZctjKeA)
 
 
 ### Mantis MGN12 Gantry
 Mod|Repository
 |:---:|:---:|
 Long's Mantis Toolhead|https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Long/Mantis_Dual_5015
-Hartk's GE5C Spherical Z Joint|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C
-Hartk's Pinmod (X/Y Joints,A/B Drive Frames, Z idlers)|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod
+Hartk's GE5C Spherical Z Joint|[https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C](https://mods.vorondesign.com/details/eB5T2RNQcYI4o6cilhpXEg)
+Hartk's Pinmod (X/Y Joints, ,A/B Drive Frames, A/B idlers, Z idlers)|[https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod](https://mods.vorondesign.com/details/C8XJJ0fBGfBFKQZctjKeA)
 Phalanx's Other Idlers|https://github.com/selliott79/Other-V2-Idlers
 
 ### Other Mods
@@ -167,7 +167,7 @@ The following mods are present in all or most Doomcube variants in the complete 
 
 Mod|Repository
 |:---:|:---:|
-L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop|https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop
+L.e.o.p.a.r.d and Hartk's Sexbolt Z Endstop|[https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop](https://mods.vorondesign.com/details/t1DBVlcUBbdEK6habEsVzg)
 josar's Klicky Probe|https://github.com/jlas1/Klicky-Probe 
 whoppingpochard's Gantry Rail Backers|https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers
 

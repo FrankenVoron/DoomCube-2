@@ -33,5 +33,6 @@ like so:
 | Maker Technologies | [Rounded Upper Corner Panel Mounts with Rubber Feet Support](./Maker_Technologies/Upper%20Rounded%20Corner%20Panel%20holder%20with%20Support%20for%20Rubber%20Feet) | Keeps the Top panel in place while adding a spot to insert rubber feet on the top corners.|
 | Maker Technologies | [Rounded Lower Corner Panel Mounts](./Maker_Technologies/Lower%20Rounded%20Corner%20Panel%20Holder) | Keeps the bottom panel in place.|
 | Maker Technologies | [BTT Pi TFT70 Mount](./Maker_Technologies/Pi%20Tft70%20Skirt%20Mount) | A mount for a BTT Pi TFT70 to attach to a skirt.|
+| k3vOOoOO | [https://www.printables.com/model/604933-doomcube-dual-power-switch-plate](https://www.printables.com/model/604933-doomcube-dual-power-switch-plate)| Dual BOM-spec rocker switches and filtered inlet. |
 
 ---
